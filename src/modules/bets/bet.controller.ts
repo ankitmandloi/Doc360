@@ -164,4 +164,16 @@ export const betController = {
       return res.status(500).json({ success: false, error: 'Internal server error' });
     }
   },
+
+  getTopWinners: (req: Request, res: Response) => {
+    try {
+      const limit = parseInt(req.query.limit as string) || 30;
+      const bets = betService.getTopWinners(limit);
+      
+      return res.json({ success: true, data: bets });
+    } catch (error) {
+      console.error('[Bets] Get top winners error:', error);
+      return res.status(500).json({ success: false, error: 'Internal server error' });
+    }
+  },
 };

@@ -33,6 +33,7 @@ router.post('/bets/place', requireAuth, betController.placeBet);
 router.put('/bets/update', requireAuth, betController.updateBet);
 router.delete('/bets/remove', requireAuth, betController.removeBet);
 router.get('/bets/all', betController.getAllBets);
+router.get('/bets/winners', betController.getTopWinners);
 router.get('/bets/user/history', requireAuth, betController.getUserBets);
 router.get('/bets/user/current', requireAuth, betController.getCurrentBet);
 router.get('/bets/user/current-all', requireAuth, betController.getCurrentBets);

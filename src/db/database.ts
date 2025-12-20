@@ -405,6 +405,21 @@ class Database {
       .slice(0, limit);
   }
 
+  getTopWinners(limit: number = 30): Bet[] {
+    const allBets: Bet[] = [];
+    
+    // Include winning bets from completed rounds only
+    for (const round of this.state.rounds.slice().reverse()) {
+      const winningBets = round.bets.filter(b => b.status === 'won');
+      allBets.push(...winningBets);
+    }
+    
+    // Sort by won amount (highest first) and limit
+    return allBets
+      .sort((a, b) => b.wonAmount - a.wonAmount)
+      .slice(0, limit);
+  }
+
   processRoundResults(winningColor: GameColor, multipliers: Record<GameColor, number>): void {
     if (!this.state.currentRound) return;
 

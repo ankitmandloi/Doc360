@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import * as crypto from 'crypto';
-import * as jwt from 'jsonwebtoken';
+import jwt, { SignOptions } from 'jsonwebtoken';
+import type { StringValue } from 'ms';
 import { db, User } from '../../db/database';
 import { config } from '../../config';
 
@@ -31,7 +32,8 @@ class AuthService {
   // Generate JWT token
   generateToken(userId: string, phone: string): string {
     const payload: TokenPayload = { userId, phone };
-    return jwt.sign(payload, config.jwtSecret, { expiresIn: config.jwtExpiresIn });
+    const options: SignOptions = { expiresIn: config.jwtExpiresIn as StringValue };
+    return jwt.sign(payload, config.jwtSecret, options);
   }
 
   // Verify JWT token

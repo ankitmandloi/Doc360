@@ -117,6 +117,10 @@ class BetService {
   getAllRecentBets(limit: number = 20): Bet[] {
     return db.getAllRecentBets(limit);
   }
+
+  getTopWinners(limit: number = 30): Bet[] {
+    return db.getTopWinners(limit);
+  }
 }
 
 export const betService = new BetService();
