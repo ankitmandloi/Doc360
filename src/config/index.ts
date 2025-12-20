@@ -23,7 +23,7 @@ export const config = {
   game: {
     initDuration: parseInt(process.env.ROUND_INIT_DURATION || '15', 10) * 1000,
     bettingDuration: parseInt(process.env.ROUND_BETTING_DURATION || '30', 10) * 1000,
-    winningDuration: parseInt(process.env.ROUND_WINNING_DURATION || '30', 10) * 1000,
+    winningDuration: parseInt(process.env.ROUND_WINNING_DURATION || '15', 10) * 1000,
     initialBalance: 1000, // Starting balance for new users
     get totalDuration() {
       return this.initDuration + this.bettingDuration + this.winningDuration;
@@ -32,16 +32,16 @@ export const config = {
   
   // Multipliers
   multipliers: {
-    red: 2,
-    green: 3,
+    red: 1.98,
+    green: 1.98,
     blue: 5,
   } as const,
   
   // Color probability ranges (0-99)
   colorRanges: {
-    red: { min: 0, max: 49 },     // 50% chance -> x2
-    green: { min: 50, max: 79 },  // 30% chance -> x3
-    blue: { min: 80, max: 99 },   // 20% chance -> x5
+    red: { min: 0, max: 39 },     // 40% chance -> x1.98
+    blue: { min: 40, max: 59 },   // 20% chance -> x5
+    green: { min: 60, max: 99 },  // 40% chance -> x1.98
   } as const,
 };
 

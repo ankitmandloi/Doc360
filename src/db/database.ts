@@ -281,10 +281,6 @@ class Database {
     const user = this.state.users.get(userId);
     if (!user || user.balance < amount) return null;
 
-    // Check if user already bet this round
-    const existingBet = this.state.currentRound.bets.find(b => b.userId === userId);
-    if (existingBet) return null;
-
     // Deduct balance
     user.balance -= amount;
     this.state.users.set(userId, user);
@@ -304,6 +300,62 @@ class Database {
     this.saveToFile();
     
     return newBet;
+  }
+
+  updateBet(betId: string, userId: string, amount: number, color: GameColor): Bet | null {
+    if (!this.state.currentRound) return null;
+    if (this.state.currentRound.phase !== 'BETTING') return null;
+
+    const betIndex = this.state.currentRound.bets.findIndex(b => b.id === betId && b.userId === userId);
+    if (betIndex === -1) return null;
+
+    const oldBet = this.state.currentRound.bets[betIndex];
+    const user = this.state.users.get(userId);
+    if (!user) return null;
+
+    // Calculate balance difference
+    const balanceDiff = amount - oldBet.amount;
+    
+    // Check if user has sufficient balance for the difference
+    if (balanceDiff > 0 && user.balance < balanceDiff) return null;
+
+    // Update user balance
+    user.balance -= balanceDiff;
+    this.state.users.set(userId, user);
+
+    // Update bet
+    const updatedBet: Bet = {
+      ...oldBet,
+      amount,
+      color,
+    };
+
+    this.state.currentRound.bets[betIndex] = updatedBet;
+    this.saveToFile();
+    
+    return updatedBet;
+  }
+
+  removeBet(betId: string, userId: string): boolean {
+    if (!this.state.currentRound) return false;
+    if (this.state.currentRound.phase !== 'BETTING') return false;
+
+    const betIndex = this.state.currentRound.bets.findIndex(b => b.id === betId && b.userId === userId);
+    if (betIndex === -1) return false;
+
+    const bet = this.state.currentRound.bets[betIndex];
+    const user = this.state.users.get(userId);
+    if (!user) return false;
+
+    // Refund the bet amount
+    user.balance += bet.amount;
+    this.state.users.set(userId, user);
+
+    // Remove bet
+    this.state.currentRound.bets.splice(betIndex, 1);
+    this.saveToFile();
+    
+    return true;
   }
 
   getUserBets(userId: string, limit: number = 10): Bet[] {
@@ -326,6 +378,11 @@ class Database {
   getUserBetForCurrentRound(userId: string): Bet | null {
     if (!this.state.currentRound) return null;
     return this.state.currentRound.bets.find(b => b.userId === userId) || null;
+  }
+
+  getUserBetsForCurrentRound(userId: string): Bet[] {
+    if (!this.state.currentRound) return [];
+    return this.state.currentRound.bets.filter(b => b.userId === userId);
   }
 
   getAllRecentBets(limit: number = 20): Bet[] {

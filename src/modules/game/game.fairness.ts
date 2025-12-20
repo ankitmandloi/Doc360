@@ -28,9 +28,9 @@ export function generateRandomNumber(seed: string): number {
  * Determine winning color based on random number
  * 
  * Distribution:
- * - Red (x2):   0-49  (50% chance)
- * - Green (x3): 50-79 (30% chance)
- * - Blue (x5):  80-99 (20% chance)
+ * - Red (x1.98):   0-39  (40% chance)
+ * - Blue (x5):     40-59 (20% chance)
+ * - Green (x1.98): 60-99 (40% chance)
  */
 export function determineWinningColor(randomNumber: number): GameColor {
   const { colorRanges } = config;

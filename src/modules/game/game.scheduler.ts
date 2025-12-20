@@ -10,9 +10,12 @@ class GameScheduler {
   private phaseEndsAt: number = 0;
   private winRevealTimeout: NodeJS.Timeout | null = null;
   private phaseTimeout: NodeJS.Timeout | null = null;
+  private dailyGameCount: number = 0;
+  private currentDate: string = '';
 
   start() {
     console.log('[Scheduler] Starting game scheduler...');
+    this.initializeDailyCounter();
     this.startNewRound();
   }
 
@@ -22,8 +25,27 @@ class GameScheduler {
     console.log('[Scheduler] Stopped');
   }
 
+  private initializeDailyCounter() {
+    const today = new Date();
+    const dateStr = today.getFullYear().toString() + 
+                   (today.getMonth() + 1).toString().padStart(2, '0') + 
+                   today.getDate().toString().padStart(2, '0');
+    
+    if (this.currentDate !== dateStr) {
+      this.currentDate = dateStr;
+      this.dailyGameCount = 0;
+    }
+  }
+
+  private generateGameId(): string {
+    this.initializeDailyCounter();
+    this.dailyGameCount++;
+    const gameNumber = this.dailyGameCount.toString().padStart(4, '0');
+    return `${this.currentDate}${gameNumber}`;
+  }
+
   private startNewRound() {
-    const roundId = uuidv4();
+    const roundId = this.generateGameId();
     const serverSeed = generateServerSeed();
     const serverSeedHash = hashServerSeed(serverSeed);
     const now = Date.now();

@@ -41,6 +41,66 @@ export const betController = {
     }
   },
 
+  updateBet: (req: Request, res: Response) => {
+    try {
+      const userId = req.userId;
+      
+      if (!userId) {
+        return res.status(401).json({ success: false, error: 'Unauthorized' });
+      }
+      
+      const { betId, color, amount } = req.body;
+      
+      if (!betId || !color || !amount) {
+        return res.status(400).json({ success: false, error: 'Missing required fields' });
+      }
+
+      const result = betService.updateBet(betId, userId, color, amount);
+      
+      if (result.success) {
+        return res.json({
+          success: true,
+          data: {
+            bet: result.bet,
+            potentialWin: result.potentialWin,
+          },
+        });
+      } else {
+        return res.status(400).json({ success: false, error: result.error });
+      }
+    } catch (error) {
+      console.error('[Bets] Update bet error:', error);
+      return res.status(500).json({ success: false, error: 'Internal server error' });
+    }
+  },
+
+  removeBet: (req: Request, res: Response) => {
+    try {
+      const userId = req.userId;
+      
+      if (!userId) {
+        return res.status(401).json({ success: false, error: 'Unauthorized' });
+      }
+      
+      const { betId } = req.body;
+      
+      if (!betId) {
+        return res.status(400).json({ success: false, error: 'Missing betId' });
+      }
+
+      const result = betService.removeBet(betId, userId);
+      
+      if (result.success) {
+        return res.json({ success: true });
+      } else {
+        return res.status(400).json({ success: false, error: result.error });
+      }
+    } catch (error) {
+      console.error('[Bets] Remove bet error:', error);
+      return res.status(500).json({ success: false, error: 'Internal server error' });
+    }
+  },
+
   getUserBets: (req: Request, res: Response) => {
     try {
       const userId = req.userId;
@@ -72,6 +132,23 @@ export const betController = {
       return res.json({ success: true, data: bet });
     } catch (error) {
       console.error('[Bets] Get current bet error:', error);
+      return res.status(500).json({ success: false, error: 'Internal server error' });
+    }
+  },
+
+  getCurrentBets: (req: Request, res: Response) => {
+    try {
+      const userId = req.userId;
+      
+      if (!userId) {
+        return res.status(401).json({ success: false, error: 'Unauthorized' });
+      }
+      
+      const bets = betService.getUserBetsForCurrentRound(userId);
+      
+      return res.json({ success: true, data: bets });
+    } catch (error) {
+      console.error('[Bets] Get current bets error:', error);
       return res.status(500).json({ success: false, error: 'Internal server error' });
     }
   },

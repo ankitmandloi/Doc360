@@ -38,13 +38,7 @@ class BetService {
       return { success: false, error: 'Insufficient balance' };
     }
 
-    // Check if user already bet this round
-    const existingBet = db.getUserBetForCurrentRound(userId);
-    if (existingBet) {
-      return { success: false, error: 'Already placed a bet this round' };
-    }
-
-    // Place the bet
+    // Place the bet (multiple bets now allowed)
     const bet = db.placeBet(userId, gameState.roundId, amount, color as GameColor);
     
     if (!bet) {
@@ -56,12 +50,68 @@ class BetService {
     return { success: true, bet, potentialWin };
   }
 
+  updateBet(betId: string, userId: string, color: GameColor, amount: number): { success: boolean; bet?: Bet; potentialWin?: number; error?: string } {
+    // Get current game state
+    const gameState = gameScheduler.getGameState();
+    if (!gameState) {
+      return { success: false, error: 'Game not initialized' };
+    }
+
+    // Check if in betting phase
+    if (gameState.phase !== 'BETTING') {
+      return { success: false, error: 'Betting is not open' };
+    }
+
+    // Check user exists
+    const user = db.getUser(userId);
+    if (!user) {
+      return { success: false, error: 'User not found' };
+    }
+
+    // Update the bet
+    const bet = db.updateBet(betId, userId, amount, color);
+    
+    if (!bet) {
+      return { success: false, error: 'Failed to update bet or insufficient balance' };
+    }
+
+    const potentialWin = amount * config.multipliers[color];
+
+    return { success: true, bet, potentialWin };
+  }
+
+  removeBet(betId: string, userId: string): { success: boolean; error?: string } {
+    // Get current game state
+    const gameState = gameScheduler.getGameState();
+    if (!gameState) {
+      return { success: false, error: 'Game not initialized' };
+    }
+
+    // Check if in betting phase
+    if (gameState.phase !== 'BETTING') {
+      return { success: false, error: 'Betting is not open' };
+    }
+
+    // Remove the bet
+    const success = db.removeBet(betId, userId);
+    
+    if (!success) {
+      return { success: false, error: 'Failed to remove bet' };
+    }
+
+    return { success: true };
+  }
+
   getUserBets(userId: string, limit: number = 10): Bet[] {
     return db.getUserBets(userId, limit);
   }
 
   getUserBetForCurrentRound(userId: string): Bet | null {
     return db.getUserBetForCurrentRound(userId);
+  }
+
+  getUserBetsForCurrentRound(userId: string): Bet[] {
+    return db.getUserBetsForCurrentRound(userId);
   }
 
   getAllRecentBets(limit: number = 20): Bet[] {

@@ -77,1007 +77,1659 @@
       "referralCount": 0,
       "isPhoneVerified": true,
       "createdAt": 1766050775807
+    },
+    "user_950f7b26": {
+      "id": "user_950f7b26",
+      "username": "user_1423",
+      "phone": "7987011423",
+      "password": "ac0eb325dcaed1bf4d13d68d2bd2328d5813238c342e621663a03c7ee4bdbaa0",
+      "name": "Ankit",
+      "balance": 99994036.59999998,
+      "referralCode": "XINA31R1",
+      "referredBy": null,
+      "referralCount": 0,
+      "isPhoneVerified": true,
+      "createdAt": 1766210621663
     }
   },
   "rounds": [
     {
-      "id": "e134aa26-7475-459b-9a98-5b9c4e034eb8",
-      "startTimestamp": 1766057178109,
+      "id": "c4e54ba7-3cc8-4bd2-8291-662db35b9504",
+      "startTimestamp": 1766210086156,
       "phase": "COMPLETE",
-      "serverSeed": "ce184c9023ce9471b42a313e568deede11c45f04bf4587b533994e930e4314b4",
-      "serverSeedHash": "a277f67cff77b0942f6044940c222547d5fa9f6c96e543e7b3bf8262c96eb00e",
+      "serverSeed": "3f3a30198d4b97903c8fa7ad1599a73bbed83f730edcd306f25d1097961b63cb",
+      "serverSeedHash": "ffe2c59ab34615ae5d963048a632e6302b99ebb3c5ffd223cd37002cb60913c6",
       "winningColor": "red",
-      "winRevealedAt": 1766057242799,
+      "winRevealedAt": 1766210136985,
       "bets": []
     },
     {
-      "id": "9e6ea64b-5871-4024-a111-0a550a129a2d",
-      "startTimestamp": 1766057253638,
+      "id": "c2aea240-ed53-40e2-9f59-623aa9bf874f",
+      "startTimestamp": 1766210161688,
       "phase": "COMPLETE",
-      "serverSeed": "b491eb3d65c704c0f3f18dab25529fd4f251acf880706bcd3e8f82471eddf8fa",
-      "serverSeedHash": "d9c7e3299b0a70b5eb9aa7fb402ea0ed01e629c1acbc9793b717e41271656e1a",
+      "serverSeed": "1de366c1afe1081c949dd9edd76d60fe402ea35fab72722aa00efcc4b0752be6",
+      "serverSeedHash": "609c66ab4d0a76fb2acf2ba1cd6afa15032989cbf279d0512436bd23358e4bad",
       "winningColor": "green",
-      "winRevealedAt": 1766057323001,
+      "winRevealedAt": 1766210222224,
       "bets": []
     },
     {
-      "id": "57e34df9-ae65-498d-8522-cbf70861bac0",
-      "startTimestamp": 1766057329187,
+      "id": "2af15c9e-dc2d-4739-aeb2-d0d09677eda9",
+      "startTimestamp": 1766210237214,
       "phase": "COMPLETE",
-      "serverSeed": "af34ff96313595de3dddba0f10e9df8e9bad5596a7396d27599da67cf6e471a1",
-      "serverSeedHash": "d58b82c328891740379b6461bbd283c91e209031eb293f155ee062293ca94582",
-      "winningColor": "green",
-      "winRevealedAt": 1766057381911,
-      "bets": []
-    },
-    {
-      "id": "7b7aa7d7-7f5b-48a9-9080-19525d8ebfb9",
-      "startTimestamp": 1766057404730,
-      "phase": "COMPLETE",
-      "serverSeed": "906f1693b64ac156ba53dbec51b498eacde749d8fa099aea83c3c8005f37064f",
-      "serverSeedHash": "3994c64217b2584f091b98afc1cf6f7347d2e3d2e5537d599b4a6440b22f41fd",
+      "serverSeed": "374849880a810cf98cdf4b89bea053b5aceb0f4b1cadd35a24a2e5c5ce4b62ec",
+      "serverSeedHash": "1aace47eefae407c4690c1356dd2f6c338eef0d094550ae088aca337c901f2a8",
       "winningColor": "blue",
-      "winRevealedAt": 1766057461395,
+      "winRevealedAt": 1766210293828,
       "bets": []
     },
     {
-      "id": "00f8b09d-d6b1-42be-98db-2cfddb8a5b4b",
-      "startTimestamp": 1766057480268,
+      "id": "f08a26c2-1654-4458-97d2-4a9a90adadbd",
+      "startTimestamp": 1766210312745,
       "phase": "COMPLETE",
-      "serverSeed": "5bb3ea8f85ac69d67a82369671d7451da4dbb88b58846f04f4708ed2b0523227",
-      "serverSeedHash": "0c44b0bbeaed5bc763bd86e1847dc84548a1641d0fdf76ede86b5c821bb3404b",
+      "serverSeed": "285373361024f60d84a23d5c58b9a3f76b587f512c2a93e36e3a86ebaefaf647",
+      "serverSeedHash": "3690739a92ca5e5c41de6bf154ca307343771d3f88f24f6ce867c28faca59767",
       "winningColor": "red",
-      "winRevealedAt": 1766057544154,
+      "winRevealedAt": 1766210377539,
       "bets": []
     },
     {
-      "id": "863cc7de-a57f-43bd-8958-20c992430933",
-      "startTimestamp": 1766057555811,
+      "id": "650b891a-c229-4e6e-b893-cacabccce610",
+      "startTimestamp": 1766210388278,
       "phase": "COMPLETE",
-      "serverSeed": "12d2251871539593a0818f72cd47c54bd4dc1aff1e3831006406dfafdaad3f02",
-      "serverSeedHash": "7209482396ec1f3051b2ff4b342b938255efebaa1fee2712f10406960b7e4ae0",
-      "winningColor": "blue",
-      "winRevealedAt": 1766057619143,
-      "bets": []
-    },
-    {
-      "id": "3f3d5658-a930-4a84-b6bd-09257e7c873a",
-      "startTimestamp": 1766057631362,
-      "phase": "COMPLETE",
-      "serverSeed": "407056b05813927162cf7a588c5d508eaa63605fde1cad477fdc49d00988c738",
-      "serverSeedHash": "3a49615a611828069e288f64577d4a5469d174e3ca170066bc65bcd6ec13d9f5",
-      "winningColor": "red",
-      "winRevealedAt": 1766057694428,
-      "bets": []
-    },
-    {
-      "id": "0df141fe-bec7-48ca-a8f4-b014e49031a7",
-      "startTimestamp": 1766057706902,
-      "phase": "COMPLETE",
-      "serverSeed": "e183e866a790e4b67572ff587817ae4102d62c240fed6d6efad943e390e8dae7",
-      "serverSeedHash": "a6c942a7b3d1af6f4476db4c53feed5dd14b090b483d7f0a5463574ac9eff47b",
-      "winningColor": "blue",
-      "winRevealedAt": 1766057776381,
-      "bets": []
-    },
-    {
-      "id": "b526207f-9c59-468d-90f1-6709069e052c",
-      "startTimestamp": 1766057782443,
-      "phase": "COMPLETE",
-      "serverSeed": "6aed662f6df8e50eda39e0c1d970ce06658c81210723275b1faee7b8a5eb32e2",
-      "serverSeedHash": "9edf9d935d715409cf4258eb8e229a0ce78eebafc5bdbdfb87b55233b365a5a2",
-      "winningColor": "blue",
-      "winRevealedAt": 1766057839640,
-      "bets": []
-    },
-    {
-      "id": "78db4833-e4c5-4693-aaaf-50d6bf4a8048",
-      "startTimestamp": 1766057857977,
-      "phase": "COMPLETE",
-      "serverSeed": "ebd1748cc5c57be19184f6aab00a33692623b810235f6297f91720d61b04e9be",
-      "serverSeedHash": "944fa162656d5f0688455c27894a3b2b051995abf863399f7c0bc88658ffc6e6",
-      "winningColor": "red",
-      "winRevealedAt": 1766057908440,
-      "bets": []
-    },
-    {
-      "id": "1799cffe-cee9-46b9-b96a-948b8b3bf0b4",
-      "startTimestamp": 1766057933510,
-      "phase": "COMPLETE",
-      "serverSeed": "8461806d148f78280c73ad4f47ee510c3b19e4d54ba12b14e5bca5a63a7fef0b",
-      "serverSeedHash": "9a0b5d63b391313cf0a74cc43c5783e4173993bd9696c9093fbd7fc769c48134",
-      "winningColor": "red",
-      "winRevealedAt": 1766057999689,
-      "bets": []
-    },
-    {
-      "id": "9bd0647a-9fcf-4f65-95dc-7283ef4bb334",
-      "startTimestamp": 1766058009051,
-      "phase": "COMPLETE",
-      "serverSeed": "1246b459b4b0df415c1596fdf00d147dd41e748482fd7642a2b887346a864e6d",
-      "serverSeedHash": "6ff1c9611a13bb9962fe2e05b129c11cfeb7afb6abec779437ee2c27238c6ad8",
-      "winningColor": "blue",
-      "winRevealedAt": 1766058075329,
-      "bets": []
-    },
-    {
-      "id": "c2762757-6745-490a-82e9-027a6cdbe170",
-      "startTimestamp": 1766058084601,
-      "phase": "COMPLETE",
-      "serverSeed": "31e1ae818515677e580f1ace79df9b71752a56a3e14358fc347b3faffe43871c",
-      "serverSeedHash": "19fbd48e345b0c2928e69d9b5228d56f20c3022dcbe1209cf5d4daf5e85f74ad",
-      "winningColor": "red",
-      "winRevealedAt": 1766058144457,
-      "bets": []
-    },
-    {
-      "id": "44e69a46-64c9-48cd-99cd-665315f79b4b",
-      "startTimestamp": 1766058160125,
-      "phase": "COMPLETE",
-      "serverSeed": "1c880e5b6d011f6c72f457067be1b6c55f5f2deaa072ec634f331c2211f2d3e7",
-      "serverSeedHash": "30ea33ab2ec606112cd4d3bb94091f610a03014e3755e57fefdd3c0e7945cf5d",
-      "winningColor": "red",
-      "winRevealedAt": 1766058224194,
-      "bets": []
-    },
-    {
-      "id": "0048afae-399f-45bd-a21e-a56a95884e95",
-      "startTimestamp": 1766058235674,
-      "phase": "COMPLETE",
-      "serverSeed": "299d200837daf67f8df2b2f7f6b7a79fceb4a8237dc42e5a000dbdb6b2d735a1",
-      "serverSeedHash": "aae852e2876fc3379e797387548d96e10c539303dca441dccec8a9b318bc1dfc",
-      "winningColor": "red",
-      "winRevealedAt": 1766058299965,
-      "bets": []
-    },
-    {
-      "id": "1556ab04-b1ba-49d6-9ee9-59aa0c3f57e3",
-      "startTimestamp": 1766058311218,
-      "phase": "COMPLETE",
-      "serverSeed": "b609a3277ab6f7443e0e80e31162c8f89e1c5cd14d91655539d9a7e7feede032",
-      "serverSeedHash": "2f4cd3812530a27a0ab4db43929d9d760d5f2532bc6f1d0b0798fef029b89f09",
+      "serverSeed": "acc7b0db6521e75f0c20acf693bbd9844f34b9136d81567c71d8ad7f90c5f7c5",
+      "serverSeedHash": "1ad596baef6ba1412dcf459c500b6e3f74b042815c7e3d01967d4c1240ea21d9",
       "winningColor": "green",
-      "winRevealedAt": 1766058366891,
+      "winRevealedAt": 1766210438944,
       "bets": []
     },
     {
-      "id": "dd67ef23-2f2a-4b31-b525-4960fbbee06d",
-      "startTimestamp": 1766058386753,
+      "id": "4e1b67c5-b190-4825-b634-fe0eb5019cdd",
+      "startTimestamp": 1766210502697,
       "phase": "COMPLETE",
-      "serverSeed": "7553d07607447ae40f01abf85e02d9ace8a11ad9fae8c9956f1c4921c450945c",
-      "serverSeedHash": "e1dc9b301096a79e2d94300874d3e423a79a5183eafd4400544165e1af8d0f57",
+      "serverSeed": "08fcead08098321ffe5a7f32b4356341a4f6b35aac9f7d32a3e0c6ece9bdff01",
+      "serverSeedHash": "b08c436f37a6d18800e6b6f22c2992a3606c7ccabf599dff7a49b0cdf1be99be",
       "winningColor": "green",
-      "winRevealedAt": 1766058451472,
+      "winRevealedAt": 1766210556987,
       "bets": []
     },
     {
-      "id": "52da73bf-6963-4cdf-96bc-e02aac504762",
-      "startTimestamp": 1766058462286,
+      "id": "e0b2f78a-b5d1-4abd-b99b-e6c8d4fafc7b",
+      "startTimestamp": 1766210578232,
       "phase": "COMPLETE",
-      "serverSeed": "34db1087cd270fbbbdecb436f17b893cd7d331ff7e874be7246bb9e4602ef124",
-      "serverSeedHash": "ccdc3e093d81efde969ccca86540085b8641d90949198f2ef3ceade9e5ec5a7d",
+      "serverSeed": "936af146156438af2312da89bf84207b6046f6ef0ed4d291d7d6d68487993cb0",
+      "serverSeedHash": "1e62ffe0d79b39a393a8b320a269287880168ae21ccac3fddfe3264f6efbfb23",
+      "winningColor": "red",
+      "winRevealedAt": 1766210648558,
+      "bets": []
+    },
+    {
+      "id": "bf93872e-e581-4972-b859-99795e404fa7",
+      "startTimestamp": 1766210653751,
+      "phase": "COMPLETE",
+      "serverSeed": "557b954afd6e5e3049b140e12ac1e3db1e88747b7ae4b5ba033ee6733d8b5b32",
+      "serverSeedHash": "44910bf8cf23172b00390cbb69da544f583e33dc4d1669d2bf73cfa50a5aab96",
       "winningColor": "green",
-      "winRevealedAt": 1766058520702,
-      "bets": []
+      "winRevealedAt": 1766210706247,
+      "bets": [
+        {
+          "id": "d188cbd1-299b-46da-9714-badb010e18f1",
+          "roundId": "bf93872e-e581-4972-b859-99795e404fa7",
+          "userId": "user_950f7b26",
+          "amount": 30,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766210674132
+        }
+      ]
     },
     {
-      "id": "9aeea6cb-326d-4ad3-8701-372b5117ff67",
-      "startTimestamp": 1766058537820,
+      "id": "cd1c19af-9733-4ded-a571-dae16f311a3c",
+      "startTimestamp": 1766210729296,
       "phase": "COMPLETE",
-      "serverSeed": "d8423863fc81b24892bb2ba39f59b99d1fcfde2dc897a7c7346532f124c00fcb",
-      "serverSeedHash": "91e37b40fe005b7946086189d7036518c106bbc81539cc5686c038ac6aea0c3b",
+      "serverSeed": "b59f5e177e8fb399e2c7c3e640a42e9454add8d5d04651daa7319e877de03133",
+      "serverSeedHash": "b0a4accc2dcc118fe04bcc625c9bfe9a50198a787501018c19ca557ba5e42378",
       "winningColor": "blue",
-      "winRevealedAt": 1766058606476,
+      "winRevealedAt": 1766210793829,
       "bets": []
     },
     {
-      "id": "0fe5b72f-91a4-46c4-b786-174139564c89",
-      "startTimestamp": 1766058613349,
+      "id": "facaf738-79db-4894-8886-bc9e48bcd5cf",
+      "startTimestamp": 1766210804852,
       "phase": "COMPLETE",
-      "serverSeed": "b316f3548906f43a003070f63f6837cf2834146c677e1a27110cd268d2404488",
-      "serverSeedHash": "119c55a14a5e9abcbdf40a0e0f52c3668e7e32f31d1173f92d64a23b6df4ca0e",
-      "winningColor": "red",
-      "winRevealedAt": 1766058663966,
-      "bets": []
-    },
-    {
-      "id": "ca0ed8e4-a3ab-4cd6-9c2f-2d9a6c533cb1",
-      "startTimestamp": 1766058688921,
-      "phase": "COMPLETE",
-      "serverSeed": "23586a8ece9a167d139866833a6da1f666beea4ab867bb3631ffde46d68e73f2",
-      "serverSeedHash": "d1b51d832812650ff32fd3267174411c8e783eef2cda756cb15d2ddf573b6a90",
-      "winningColor": "red",
-      "winRevealedAt": 1766058814290,
-      "bets": []
-    },
-    {
-      "id": "fe4c2a69-a242-4507-bedf-290470a653df",
-      "startTimestamp": 1766058834646,
-      "phase": "COMPLETE",
-      "serverSeed": "ff54a6ce18fd74759e219dbadb2e3198af06764eb7141906c27799df877afd24",
-      "serverSeedHash": "1d09ab5cd586c5e7f667f90bcf6df5dead397f82252d479db8bfa211b62b4684",
-      "winningColor": "red",
-      "winRevealedAt": 1766058900250,
-      "bets": []
-    },
-    {
-      "id": "83769ae1-30e4-4ce6-b429-c9de4e89a9b6",
-      "startTimestamp": 1766058910186,
-      "phase": "COMPLETE",
-      "serverSeed": "8ae0af24d0ba881c4b110f33517d071cd57122a3983d2ca1df9937947f6632af",
-      "serverSeedHash": "e45b75dccd720b37e4107078664a84f0f683855bfcde8562359113ce7c484cc9",
-      "winningColor": "red",
-      "winRevealedAt": 1766058974384,
-      "bets": []
-    },
-    {
-      "id": "90b67d6c-77bc-40b3-8f4f-1f0405a431b9",
-      "startTimestamp": 1766058985732,
-      "phase": "COMPLETE",
-      "serverSeed": "73e02d5781fa42a05d23a3a4b21d005a7dd5fa84d42e738212eac6f27182ff7a",
-      "serverSeedHash": "d74ffdf0937181d644788312c824ef362c96bf8d062ff7175e2634e7c3316cea",
-      "winningColor": "red",
-      "winRevealedAt": 1766059035612,
-      "bets": []
-    },
-    {
-      "id": "b91a2d88-ba09-4610-bb43-0b0a1ab1ee1c",
-      "startTimestamp": 1766059061291,
-      "phase": "COMPLETE",
-      "serverSeed": "d2a1629952010a44f8c3a22bd4464815a676695154182307dae9739ec01ae794",
-      "serverSeedHash": "027500a4d6b9984bea67ad5fd4cd9517ff10406ef8a095849a67476f1a4d4492",
-      "winningColor": "green",
-      "winRevealedAt": 1766059128417,
-      "bets": []
-    },
-    {
-      "id": "e0dd6161-c091-43c2-a8e5-3ff018e587bb",
-      "startTimestamp": 1766059136837,
-      "phase": "COMPLETE",
-      "serverSeed": "b0b8dd3dca32723ec6e010dd4edc39119b7455fe9636e4d9204942f4f3837168",
-      "serverSeedHash": "3a7dca924311685cda92c3094badadd2fcf270b622b8045a9e08f598ef00a698",
+      "serverSeed": "51d5e35f743325bc53e2471f54e3a40f0c96079d2afaefadace112e16140032d",
+      "serverSeedHash": "df322631ce37d28d59ccb8bb0479d114eaead656c083ab5d97414d2f6369c012",
       "winningColor": "blue",
-      "winRevealedAt": 1766059190647,
+      "winRevealedAt": 1766210861313,
       "bets": []
     },
     {
-      "id": "65fbe5d4-f94b-4dbe-bda5-bf87436cf67c",
-      "startTimestamp": 1766059212368,
+      "id": "bae15533-735d-4b54-8c12-178388e97818",
+      "startTimestamp": 1766210880389,
       "phase": "COMPLETE",
-      "serverSeed": "12dc5f519a32ecaab22b7a926bd1b1ee7d38a5f6281fc0db5d586d6f2a08d4ff",
-      "serverSeedHash": "8f525b33d207ebc59d5a3e3645c19f978f36a13a15b965d6438370e96ffa7b57",
+      "serverSeed": "665a530eed7e995ed65e4e35ba946dd1b7befa58911ef4f27a66e12f1229ec5a",
+      "serverSeedHash": "79d590440bf9a315648b247fc1e6049d60e9231a0ec89c145e3f23ae8849accb",
+      "winningColor": "red",
+      "winRevealedAt": 1766210938534,
+      "bets": []
+    },
+    {
+      "id": "40b8e367-c65d-43c0-b7c8-9f281b402529",
+      "startTimestamp": 1766210955933,
+      "phase": "COMPLETE",
+      "serverSeed": "98433fc5ae5f1ef90e392d372c2c759ba36e587d9aa50f57ec6e1e7492586e30",
+      "serverSeedHash": "0c776370463eb40d3678f4f64c63473770f1db85ba6b213f5fac4800be4176f3",
+      "winningColor": "green",
+      "winRevealedAt": 1766211021166,
+      "bets": []
+    },
+    {
+      "id": "d7aa1934-e738-449e-a31e-77280dc7a832",
+      "startTimestamp": 1766211031459,
+      "phase": "COMPLETE",
+      "serverSeed": "db1a7ddafb129523c7891bd31d5b34f1649e5df81aa6f4ae98cf6cda6732ac82",
+      "serverSeedHash": "4f5e07658d7acd779664e305317917afe41c74f0151b25011e2a30f432ef53f2",
+      "winningColor": "red",
+      "winRevealedAt": 1766211084372,
+      "bets": []
+    },
+    {
+      "id": "a3dd5f4a-02fb-49d7-877e-b7f7baf03c9d",
+      "startTimestamp": 1766211107008,
+      "phase": "COMPLETE",
+      "serverSeed": "a075754beacb729c52e784abae9a51d216c77830611bf6c717ffffaa2c6f05f1",
+      "serverSeedHash": "2a5f9b06b274f37fbecf3c8f78a5255a24bea0afb57ed854efe9dec4f206bea9",
+      "winningColor": "green",
+      "winRevealedAt": 1766211163360,
+      "bets": []
+    },
+    {
+      "id": "e46dcb50-bcb1-4c20-a6cd-a949fa323aa5",
+      "startTimestamp": 1766211286308,
+      "phase": "COMPLETE",
+      "serverSeed": "c15d3e6e04067e2fe0f721e81b82d46da979e020c472fae59cd7ae6c81613d9f",
+      "serverSeedHash": "ad973f66919de510feb0b3f617935a9eec24a04433eda5abc41ffd306449174a",
+      "winningColor": "green",
+      "winRevealedAt": 1766211352598,
+      "bets": []
+    },
+    {
+      "id": "93468fa5-c9c7-407e-a4b2-99ffcc48809e",
+      "startTimestamp": 1766211361844,
+      "phase": "COMPLETE",
+      "serverSeed": "abe1014e7e32bfae5da775e2e33c29a20268986dd1cf300bd86b4b2e6731382b",
+      "serverSeedHash": "5046cf3c18ea77c79060aa74b91dae3ab39125c09619a5475542f6a2862c9269",
+      "winningColor": "green",
+      "winRevealedAt": 1766211419857,
+      "bets": []
+    },
+    {
+      "id": "a18868db-8327-418a-a79b-ca703b7a520c",
+      "startTimestamp": 1766211437385,
+      "phase": "COMPLETE",
+      "serverSeed": "d4bfbc3a6546db3e98d47c842d5023c67c14ec278c54e736f243dfd4e045c5c9",
+      "serverSeedHash": "d3d51f332e302bb9399b9806572238f99886080c42e2e6060cd27cbe7952ebc3",
+      "winningColor": "green",
+      "winRevealedAt": 1766211488331,
+      "bets": []
+    },
+    {
+      "id": "1dc1cb37-f32d-4330-ab59-414466a9d5c9",
+      "startTimestamp": 1766211512923,
+      "phase": "COMPLETE",
+      "serverSeed": "ed1c52c21246fa70ad2d4b6437209a868505368c3c9333815b903ee4cc6dcc44",
+      "serverSeedHash": "c2903080e4c0a8ab89ac3b34956e75768389cd66e807699f75945e3c068f080b",
+      "winningColor": "green",
+      "winRevealedAt": 1766211570555,
+      "bets": []
+    },
+    {
+      "id": "ff9ded3e-e64f-452b-b5ab-0907d7b49a65",
+      "startTimestamp": 1766211588455,
+      "phase": "COMPLETE",
+      "serverSeed": "b4815426f5e07a7adfd251162678d5c9aec6f33a08ec425f303ae73af6e6a0ff",
+      "serverSeedHash": "a1c132363b8ecc822c391d80a56d822da0d5bc6d87e041f2efb810cb27158f0a",
+      "winningColor": "green",
+      "winRevealedAt": 1766211641536,
+      "bets": []
+    },
+    {
+      "id": "6dbf3e10-1bfe-4d23-8eaf-be617ce9f5b2",
+      "startTimestamp": 1766211663995,
+      "phase": "COMPLETE",
+      "serverSeed": "126b218394e1ae7035e9c03af1c801bb401a0bfc3efceac984f49e81535b91cb",
+      "serverSeedHash": "8de01dd2206232f72beebb9f1115a7a6eb3a2df02c93933c4a1c81af0452d844",
+      "winningColor": "red",
+      "winRevealedAt": 1766211731014,
+      "bets": []
+    },
+    {
+      "id": "09d378fb-7af6-444f-9aa6-ea727d5aca1e",
+      "startTimestamp": 1766211739543,
+      "phase": "COMPLETE",
+      "serverSeed": "95c8c1127366f87bc8896562bc3040c765d186caa0ec61c18c8ded366d662b8e",
+      "serverSeedHash": "f67f7c668c0bfd3f858109f8de675935a11d59f4722c94d473191289eb72e2da",
+      "winningColor": "red",
+      "winRevealedAt": 1766211802699,
+      "bets": []
+    },
+    {
+      "id": "e4a0e7d8-e7a3-4aba-81ad-3816a029e12c",
+      "startTimestamp": 1766211815078,
+      "phase": "COMPLETE",
+      "serverSeed": "fa4aee71572fa16dfc84b618a164931ccb65b9e59298d4766ecc4822b390dc3b",
+      "serverSeedHash": "283ffe993a2442ff361c66cc230e64c13d2a7db2702317fb6701c2a27285cf59",
+      "winningColor": "green",
+      "winRevealedAt": 1766211877636,
+      "bets": []
+    },
+    {
+      "id": "0fcb1d82-c41c-46d2-acfa-e3b4ed562566",
+      "startTimestamp": 1766211890607,
+      "phase": "COMPLETE",
+      "serverSeed": "0ba82c652bff1003d123bfeb285ab8670e1418d316c88f70bd54193cada6effa",
+      "serverSeedHash": "0a8164225c4e137c22a65c136d2a51b76bead45da53858ed2f8d720f164c04d4",
+      "winningColor": "green",
+      "winRevealedAt": 1766211946691,
+      "bets": []
+    },
+    {
+      "id": "72707de8-9664-4b5d-afd5-558d728efa19",
+      "startTimestamp": 1766211966140,
+      "phase": "COMPLETE",
+      "serverSeed": "8bc4c85ace3cca4622a9e4f01fc57d0eafa973e85b1bad3387cbfcd2737fe74b",
+      "serverSeedHash": "be8f0486bce01bf8cac03358aed27f925f870623b559e6fda1ce4ee9f63174bd",
+      "winningColor": "green",
+      "winRevealedAt": 1766212033348,
+      "bets": []
+    },
+    {
+      "id": "3ec2a2bf-c512-4f46-853b-da494cb2bae0",
+      "startTimestamp": 1766212041685,
+      "phase": "COMPLETE",
+      "serverSeed": "b37d1ba66063e8bbbd21f37eadfbb4855caa91e7c0b79a6d3ca4c2e56381ff4e",
+      "serverSeedHash": "e731a6f48e11369c2319127c6a679cb8befe90209c68711c569edb4e544f451a",
       "winningColor": "blue",
-      "winRevealedAt": 1766059265640,
+      "winRevealedAt": 1766212091925,
       "bets": []
     },
     {
-      "id": "c95bc308-f47b-4245-beda-4f984699f0be",
-      "startTimestamp": 1766059287910,
+      "id": "309daa8e-1645-41ab-990f-cb0610a8ee7b",
+      "startTimestamp": 1766212117235,
       "phase": "COMPLETE",
-      "serverSeed": "7f9b5132cfea263a71d02ec2d788c03c5c2bd3214dcf65385fe91ab151f81a4a",
-      "serverSeedHash": "969b0188b70c09787ae7b17b8c04dedb687420dec5614c3d6e25d9568c7211d6",
+      "serverSeed": "ad672bffd2f757b3c394c8910c6d29342d57b08d1dbe90a8071b3cfab618407c",
+      "serverSeedHash": "78def7a0764915c74ac6515b2a5e139a238b6f687e1c76fe36bd4cca9137b1d4",
       "winningColor": "blue",
-      "winRevealedAt": 1766059349199,
+      "winRevealedAt": 1766212175744,
       "bets": []
     },
     {
-      "id": "fa7210a9-686b-467a-9acf-d98e2265f424",
-      "startTimestamp": 1766059363439,
+      "id": "5087298d-11f4-455e-8db7-88da5fe85735",
+      "startTimestamp": 1766212192772,
       "phase": "COMPLETE",
-      "serverSeed": "d7708412fbea5cc5d6ed8e68045b664f3280d29248fd6253be2e9c8632fd0092",
-      "serverSeedHash": "0c6585bc521ce457074b82251876be7cc77226dff89b6cec7fb6330f25517816",
-      "winningColor": "green",
-      "winRevealedAt": 1766059422775,
+      "serverSeed": "c639da7fbb9acd2936babaab37f8c3db763cbbbc771c51e0ea005ac60cd0a770",
+      "serverSeedHash": "d6938d640dbb257baf0d8cb2b076fadb96aacd6f8ff01696250dbec53c65a4a5",
+      "winningColor": "red",
+      "winRevealedAt": 1766212262668,
       "bets": []
     },
     {
-      "id": "4b982e6c-3de6-42e4-8fd0-f22227b3834d",
-      "startTimestamp": 1766059438979,
+      "id": "d302a5ff-e417-4850-bd03-7eeb4a395534",
+      "startTimestamp": 1766212268316,
       "phase": "COMPLETE",
-      "serverSeed": "fb19aa4208730258b8334c250970c183b6228aa314a96df28836b633ebe00759",
-      "serverSeedHash": "51dcdb76a6bc507c9e582ddc2e099690839e08dbebe05988d778b91cf30bf846",
+      "serverSeed": "80a9e60a4b4de4fa29590d4ea9b46b3268d4e61abacdd889b46c615e90817383",
+      "serverSeedHash": "193e879977141e975a5a8bd774858831962d0d2a89367d1e49f40c289daa6dd5",
+      "winningColor": "red",
+      "winRevealedAt": 1766212335354,
+      "bets": []
+    },
+    {
+      "id": "668a2ee5-7417-4198-ae76-2d474b05e9ef",
+      "startTimestamp": 1766212343848,
+      "phase": "COMPLETE",
+      "serverSeed": "13ae59ff7a0cb3fe694a8637c0fbef4919decdd72b8d6683a63fdadafc556efc",
+      "serverSeedHash": "879dd73fdfd2aba07a4e3cc279b12e8f40f4ff41d649672b2044471442140e5a",
+      "winningColor": "red",
+      "winRevealedAt": 1766212395380,
+      "bets": []
+    },
+    {
+      "id": "b471e3b6-44f7-444d-b03e-bcbf74e40b9e",
+      "startTimestamp": 1766212419396,
+      "phase": "COMPLETE",
+      "serverSeed": "ef4a1723745f4b142211c98bbf24b3c9571745ad0b9588d041b2fa97ea0faad5",
+      "serverSeedHash": "f528be5f7d466903ee65f420f9b07ccb43a05827c1e9b7998f823e9e4696b56d",
       "winningColor": "blue",
-      "winRevealedAt": 1766059497056,
+      "winRevealedAt": 1766212489249,
       "bets": []
     },
     {
-      "id": "dfe898e7-93c6-48c8-92ac-6169b2b6337a",
-      "startTimestamp": 1766059514527,
+      "id": "d45e66cd-44a0-4e79-aac6-d9554b3dea92",
+      "startTimestamp": 1766212494922,
       "phase": "COMPLETE",
-      "serverSeed": "9a2df3fcb756d8086eb8f6d2c109abcda0e54abbf49a201f52bf73dfe6be77f2",
-      "serverSeedHash": "ca0e4696dc6f47a64b4343b65dcef0104693b2ffa23fc260c954d9f73151c217",
+      "serverSeed": "c092e2812e4355f7a567a5745454ee670042a406c07a16f3eaafe5b618c12fbf",
+      "serverSeedHash": "48a342e158e78876264f9e7ef3572f130e262c0f0dce8b2fc25427ee807ec8ac",
       "winningColor": "red",
-      "winRevealedAt": 1766059572273,
+      "winRevealedAt": 1766212558978,
       "bets": []
     },
     {
-      "id": "89d83537-b297-44ec-a1a3-3075d29cc01f",
-      "startTimestamp": 1766059590051,
+      "id": "7acbc9fd-8564-4f36-bbd6-21f542c35706",
+      "startTimestamp": 1766212570446,
       "phase": "COMPLETE",
-      "serverSeed": "f154d98676400d474b56963a2e8786aa3cdc8045fdbd64b55c9bc17d3044e610",
-      "serverSeedHash": "b89a07bdf5ba80552c8b4ca686f1a661230d6a387ed3292b1968c6223e9757da",
+      "serverSeed": "a59af60ec876679a506a3cf313b7e35723f57812a030e2842a79cd7550ae6643",
+      "serverSeedHash": "5e0d9b79fb673884fedd941cbb2f5b9c07a6c729c256f120be8eccbd8fd5c0bb",
       "winningColor": "red",
-      "winRevealedAt": 1766059646100,
+      "winRevealedAt": 1766212636414,
       "bets": []
     },
     {
-      "id": "7d956a0d-7feb-47f7-bbc0-c1b09d6e98df",
-      "startTimestamp": 1766059665576,
+      "id": "c09f5495-d29f-440d-b3a3-6822a954d423",
+      "startTimestamp": 1766212645993,
       "phase": "COMPLETE",
-      "serverSeed": "b8a4031c257815a5b0ff65fb7bf6101467baf6d311668ac2772cfef31dfe0bb2",
-      "serverSeedHash": "ae52d79ea83b9098de6d76bedb61d7f1a5fb58a7b35df232eabd48118dd07b84",
+      "serverSeed": "3ff1428493380ddaeece886220ad8ec6f058b6231a1b172d22284754eafd16fd",
+      "serverSeedHash": "c766f5be9259d103a95082abff944b69552e6014e2aed38968517f3c8f614519",
+      "winningColor": "red",
+      "winRevealedAt": 1766212695966,
+      "bets": []
+    },
+    {
+      "id": "a5f074d2-8dbd-4814-8b62-3aaaea19c73f",
+      "startTimestamp": 1766212721534,
+      "phase": "COMPLETE",
+      "serverSeed": "4e08683e860c293c1ab7dc37a2379800dc326154e9e68c68bc4b1b24326d736d",
+      "serverSeedHash": "4d43637bd137a77649b22118e8844d871e15e57a7f9ffd800c671716367aa478",
+      "winningColor": "red",
+      "winRevealedAt": 1766212774458,
+      "bets": []
+    },
+    {
+      "id": "8a0d8a7c-94c6-4cd1-8d34-6fafe401abb2",
+      "startTimestamp": 1766212797100,
+      "phase": "COMPLETE",
+      "serverSeed": "75cf3a9468f9ddcf631cb6aad5e603c137608e0671bce2c72888ab5968e83e20",
+      "serverSeedHash": "4b90e986df016d7dcf71465a0c55867287546bb382479fda98155360f15ce184",
+      "winningColor": "red",
+      "winRevealedAt": 1766212860969,
+      "bets": []
+    },
+    {
+      "id": "1e25269d-480b-4418-a053-852fed0b0159",
+      "startTimestamp": 1766212872643,
+      "phase": "COMPLETE",
+      "serverSeed": "0018b228648ed46edf67c07acf6fa4b5488d9150d67188e02d119ca9f5cee82f",
+      "serverSeedHash": "746d5051546cfd46c1d6042e8f286f83497bdd31f9380e6b7c5e3535d99db11b",
+      "winningColor": "red",
+      "winRevealedAt": 1766212940252,
+      "bets": []
+    },
+    {
+      "id": "46cb79ff-41e8-4922-bc23-590f31cb525d",
+      "startTimestamp": 1766212948178,
+      "phase": "COMPLETE",
+      "serverSeed": "3a915e64402cee5871716bb5321e4981cc0459564409a4c0f56fe24750e709f4",
+      "serverSeedHash": "b7ff1b3b0b5c521a9b54b019e51c50f8ea7a96fb981d5e4e4714c647614fbf49",
+      "winningColor": "green",
+      "winRevealedAt": 1766213009860,
+      "bets": []
+    },
+    {
+      "id": "57a33dd3-3ec7-4d21-b15c-2d49eb4003b9",
+      "startTimestamp": 1766213067437,
+      "phase": "COMPLETE",
+      "serverSeed": "89ce5dcd1ec6eeca0f4af3ab7be590ccf36fa9cbc60d8d765c25087b9bd3e1d4",
+      "serverSeedHash": "b359165674fdae2bae873dc576e5e7d57c37c303fe955ed1cd08f7bf3163c47e",
+      "winningColor": "green",
+      "winRevealedAt": 1766213116485,
+      "bets": []
+    },
+    {
+      "id": "e070f770-8598-4803-b84b-199822e9d112",
+      "startTimestamp": 1766213127972,
+      "phase": "COMPLETE",
+      "serverSeed": "0a5a8ae6a2067b05a631a133e512aeffe8eeffe3861d9f5567c664b581bcde2b",
+      "serverSeedHash": "32140b9b83faffb854cfe4a835c3e86f294170d3dc3785fb554f4514f68dd39b",
+      "winningColor": "red",
+      "winRevealedAt": 1766213182664,
+      "bets": []
+    },
+    {
+      "id": "f0b9b910-41d8-45d8-becc-15fc65ab11e1",
+      "startTimestamp": 1766213188501,
+      "phase": "COMPLETE",
+      "serverSeed": "bbc9dc025dc82b2deeb15f7a4ec74a8edc97d9b005989c81b5c123c3215a5cfd",
+      "serverSeedHash": "40d4698b1759633e19c47f386a4e8e28ff4d2439eb260334d0768b7f80034739",
+      "winningColor": "green",
+      "winRevealedAt": 1766213239097,
+      "bets": []
+    },
+    {
+      "id": "7d563814-85f0-48b9-b154-5f4be38bd36d",
+      "startTimestamp": 1766213249024,
+      "phase": "COMPLETE",
+      "serverSeed": "1d12d15effc03e77dd52da5cdc1516c127d3e0363a12fbe3d48de1fd71865cca",
+      "serverSeedHash": "7dc11b934a681bbda628329b58fbdfc2c96790583515969bfb2211b0c3fc146f",
+      "winningColor": "green",
+      "winRevealedAt": 1766213304157,
+      "bets": []
+    },
+    {
+      "id": "080838c7-6dc7-4a22-8f60-c9ff40af039f",
+      "startTimestamp": 1766213309573,
+      "phase": "COMPLETE",
+      "serverSeed": "6dfb50885bcb2dc8f5b9c57b6ee2bc036ca638c8f61a01052086c55ebdef9c1e",
+      "serverSeedHash": "3babfb02f48c9e197ea5f90fb66be99a5dff95c8063e566509b8889b51b37b43",
       "winningColor": "blue",
-      "winRevealedAt": 1766059725866,
-      "bets": []
+      "winRevealedAt": 1766213364387,
+      "bets": [
+        {
+          "id": "44b4b490-a189-45a4-9a68-a9fd454f4028",
+          "roundId": "080838c7-6dc7-4a22-8f60-c9ff40af039f",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "blue",
+          "wonAmount": 50,
+          "status": "won",
+          "createdAt": 1766213329356
+        },
+        {
+          "id": "873f6598-b4d2-48f3-9180-9b7ec46b2d19",
+          "roundId": "080838c7-6dc7-4a22-8f60-c9ff40af039f",
+          "userId": "user_950f7b26",
+          "amount": 30,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766213331083
+        }
+      ]
     },
     {
-      "id": "02b682bf-f860-406f-ae9a-026fe92ff423",
-      "startTimestamp": 1766059741113,
+      "id": "b71decbc-86f6-4585-9a6c-8b2ee18bf479",
+      "startTimestamp": 1766213370122,
       "phase": "COMPLETE",
-      "serverSeed": "b985c09c5f031626c25db16ff2281384bcfcc6df897e862d1654042691e1ae72",
-      "serverSeedHash": "decdeaf7d51810a6fe69529a075b2e8805ff2fbb453213f813f46684793118bf",
-      "winningColor": "red",
-      "winRevealedAt": 1766059803808,
-      "bets": []
-    },
-    {
-      "id": "9e4ceda9-f12f-4713-839f-9464ae82f5b9",
-      "startTimestamp": 1766059816658,
-      "phase": "COMPLETE",
-      "serverSeed": "ead15d8422e38f959f32f6a42c2417c9374c981ca44b44d0f5f6c713a50e7826",
-      "serverSeedHash": "ebdc66ec7717a9ac4225e4676eada95ccca2a011eb2b5125518f643be5f1967f",
+      "serverSeed": "3e73660d79abaec0bc9da143e8521f2f7d77eda80d9c6fd760027cf81b9cae50",
+      "serverSeedHash": "6fcc89c25a5023a092340c2ede224cc1076c44861ed058159ec88064c7a19a95",
       "winningColor": "green",
-      "winRevealedAt": 1766059876540,
-      "bets": []
+      "winRevealedAt": 1766213423966,
+      "bets": [
+        {
+          "id": "ce8f0198-703a-487c-9dab-45b779ff2aa7",
+          "roundId": "b71decbc-86f6-4585-9a6c-8b2ee18bf479",
+          "userId": "user_950f7b26",
+          "amount": 30,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766213395787
+        },
+        {
+          "id": "addb300a-59e8-4b14-9fb6-dfbf39f93a40",
+          "roundId": "b71decbc-86f6-4585-9a6c-8b2ee18bf479",
+          "userId": "user_950f7b26",
+          "amount": 30,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766213399350
+        },
+        {
+          "id": "adef308c-a2cb-45ff-9d1d-8f28f9de3f3d",
+          "roundId": "b71decbc-86f6-4585-9a6c-8b2ee18bf479",
+          "userId": "user_950f7b26",
+          "amount": 30,
+          "color": "green",
+          "wonAmount": 59.4,
+          "status": "won",
+          "createdAt": 1766213411864
+        }
+      ]
     },
     {
-      "id": "31433b58-1a02-4f50-a3ea-9971e76e4715",
-      "startTimestamp": 1766059892197,
+      "id": "351537fd-0848-432c-93d7-52515f3e7f2b",
+      "startTimestamp": 1766213486233,
       "phase": "COMPLETE",
-      "serverSeed": "5100380a7f4ea0175ce1c1b5bf0f7b595cafaf73935481c3e3ff3632e4abc2c6",
-      "serverSeedHash": "d94d223323314cff8e6202291ddb4c553403fd92e2ea416e84ac5e30d4001e1d",
-      "winningColor": "green",
-      "winRevealedAt": 1766059954834,
-      "bets": []
-    },
-    {
-      "id": "21ffa3d1-cf9c-4f10-8651-1747ec60593c",
-      "startTimestamp": 1766059967725,
-      "phase": "COMPLETE",
-      "serverSeed": "cae426df21c48001f861329e1c1047027c05ea5a5fa9f57588f2c42c1ddc42d2",
-      "serverSeedHash": "f57f0fcaed7d926d5a269360df1f3f5732db3d7c1e26a4aaae27f8a61ec81115",
+      "serverSeed": "3e7a473fadbdb98502dc021e8fe6d0d5a271f47112dc0394233a2874ed8b7dff",
+      "serverSeedHash": "b0b6103947200071f025da52756b2e1b6c60ce4e593d224139eb100abee9b344",
       "winningColor": "red",
-      "winRevealedAt": 1766060021756,
-      "bets": []
+      "winRevealedAt": 1766213541177,
+      "bets": [
+        {
+          "id": "5115755f-8739-4c3d-9f9d-3f132acb7ec4",
+          "roundId": "351537fd-0848-432c-93d7-52515f3e7f2b",
+          "userId": "user_950f7b26",
+          "amount": 130,
+          "color": "red",
+          "wonAmount": 257.4,
+          "status": "won",
+          "createdAt": 1766213518917
+        }
+      ]
     },
     {
-      "id": "0224c363-3cfb-4647-931d-a69a0399e263",
-      "startTimestamp": 1766060043267,
+      "id": "51eafbcd-bae7-4558-a741-ce8640101feb",
+      "startTimestamp": 1766213546786,
       "phase": "COMPLETE",
-      "serverSeed": "8638509cf1c0ebad192da4514f960c0c22e3c733b0e2f301699b7f69de8a44b7",
-      "serverSeedHash": "3dc3d5864ac19272c3d61fd37cc9961b2f633061965cfe0f8ac66c8ea1a3ba2e",
+      "serverSeed": "9b0136ea59d2582ede3e05f137bbeff24dacb9c2851760391d665bef628a7b36",
+      "serverSeedHash": "a50c7c5fcb2c95b9081245d4b88fb10456378e3717f48fafd745634c9d261cbe",
       "winningColor": "red",
-      "winRevealedAt": 1766060095107,
-      "bets": []
+      "winRevealedAt": 1766213599513,
+      "bets": [
+        {
+          "id": "7d3df59b-02e3-4213-ac3f-18e44b33fb02",
+          "roundId": "51eafbcd-bae7-4558-a741-ce8640101feb",
+          "userId": "user_950f7b26",
+          "amount": 180,
+          "color": "red",
+          "wonAmount": 356.4,
+          "status": "won",
+          "createdAt": 1766213564340
+        },
+        {
+          "id": "3b00dde8-c44d-4a46-9f6f-f3004db915a7",
+          "roundId": "51eafbcd-bae7-4558-a741-ce8640101feb",
+          "userId": "user_950f7b26",
+          "amount": 180,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766213586066
+        },
+        {
+          "id": "271e7b70-0dff-480c-9204-7514d27c93c4",
+          "roundId": "51eafbcd-bae7-4558-a741-ce8640101feb",
+          "userId": "user_950f7b26",
+          "amount": 180,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766213588687
+        }
+      ]
     },
     {
-      "id": "3976cdea-e8a1-4a45-a508-e38d792c02a6",
-      "startTimestamp": 1766060118787,
+      "id": "459a5e58-eb76-4fe5-b577-9ab0f1cc47ed",
+      "startTimestamp": 1766213607311,
       "phase": "COMPLETE",
-      "serverSeed": "fd273c9ec277e3a7111874aa50552b27d857ada0d80ed7a870f65a8a0af1e746",
-      "serverSeedHash": "68711b9536553ddaadc11990f72d3a52cdc93e4a8f16b851194eb1568dc8bf0b",
+      "serverSeed": "1e9e7661a38ca11716953ccb104613e090992c08d23b850f671144ffb6f7a2e4",
+      "serverSeedHash": "5da776847ca5e9c165262217cb37fdee6e662e3aa10e39abf99faa57cfeb3cdb",
       "winningColor": "red",
-      "winRevealedAt": 1766060178917,
-      "bets": []
+      "winRevealedAt": 1766213663820,
+      "bets": [
+        {
+          "id": "517c3ded-6552-4755-a0a8-a503264c66b0",
+          "roundId": "459a5e58-eb76-4fe5-b577-9ab0f1cc47ed",
+          "userId": "user_950f7b26",
+          "amount": 270,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766213633860
+        },
+        {
+          "id": "fee688cb-ecf5-4444-bfa9-3d73264eb9bb",
+          "roundId": "459a5e58-eb76-4fe5-b577-9ab0f1cc47ed",
+          "userId": "user_950f7b26",
+          "amount": 270,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766213645937
+        }
+      ]
     },
     {
-      "id": "7c82fc6a-212d-4f0f-b67a-6c52dee1c22c",
-      "startTimestamp": 1766060194324,
+      "id": "c0f69223-dda0-4c61-8bcb-921b8df6e1c5",
+      "startTimestamp": 1766213667865,
       "phase": "COMPLETE",
-      "serverSeed": "ea128e3c87b3323461cd55c481a71c88c03fdd805f2a1f64bf34ba1d9530332f",
-      "serverSeedHash": "fdacb248103483dd34024df76c958fb29043cae5690920b2d7b467bc5214311a",
-      "winningColor": "green",
-      "winRevealedAt": 1766060253068,
-      "bets": []
-    },
-    {
-      "id": "c4ed8383-e7eb-42a6-9ae1-7af39691d84b",
-      "startTimestamp": 1766060269861,
-      "phase": "COMPLETE",
-      "serverSeed": "42057683bcbd6baeae587000e1249e6d1f8d5b3d890ec662a7d3ed57c4967119",
-      "serverSeedHash": "5687e68781c555c730983eaa47c24b87f7d49628e58352a2faaccd1e53ee3aaa",
-      "winningColor": "green",
-      "winRevealedAt": 1766060329009,
-      "bets": []
-    },
-    {
-      "id": "a2e13aa2-828a-4f74-92d3-393d62edfcc3",
-      "startTimestamp": 1766060345402,
-      "phase": "COMPLETE",
-      "serverSeed": "79e2091aa45a1306f4e43d6197f94a7abc13a07aa6c325a66df9cd888d8a5848",
-      "serverSeedHash": "9091752551965d1c4d7266cbd5d6f8bec7218e39395224eb782696a46e373bc9",
-      "winningColor": "green",
-      "winRevealedAt": 1766060404955,
-      "bets": []
-    },
-    {
-      "id": "c763baca-6ec5-4d46-a4c5-8837b8355169",
-      "startTimestamp": 1766060420940,
-      "phase": "COMPLETE",
-      "serverSeed": "cd066e1cda218dbd9d5890d1bea9a662dbfdc00b1b25b558e020fac9755efaf0",
-      "serverSeedHash": "9263d4b72955008716f1baea31db1e710626aac0a33d56d693e11a232832b4f4",
-      "winningColor": "red",
-      "winRevealedAt": 1766060489046,
-      "bets": []
-    },
-    {
-      "id": "e4e0de08-cb7d-4a03-b46c-9de005afcd06",
-      "startTimestamp": 1766060496487,
-      "phase": "COMPLETE",
-      "serverSeed": "1e2e752e2af96cbefaf56281ca5e101d6a63f60284bb26eefb7f638fdff5f59f",
-      "serverSeedHash": "d5f4cdee37bc6c969b2674c3d2b2e17e8f32af09261078a5b324ccb4e7853933",
+      "serverSeed": "565c10f31ef085e096fe2921f0f2c9f722a18ed7ae3cf60776fc9dd3c894db90",
+      "serverSeedHash": "89ec9b9a6a3e5dab32da5829d74dc677d59f3f5ea6b1eb4fe3d3239059c42a50",
       "winningColor": "blue",
-      "winRevealedAt": 1766060550187,
-      "bets": []
+      "winRevealedAt": 1766213722884,
+      "bets": [
+        {
+          "id": "b10ec9cf-a955-47e7-855b-ed991b57e044",
+          "roundId": "c0f69223-dda0-4c61-8bcb-921b8df6e1c5",
+          "userId": "user_950f7b26",
+          "amount": 260,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766213702559
+        }
+      ]
     },
     {
-      "id": "9b5eed92-80b5-48f4-859c-c4451ca804ae",
-      "startTimestamp": 1766060572035,
+      "id": "af16468e-d52f-40c8-a202-b33caa8a5926",
+      "startTimestamp": 1766213728395,
       "phase": "COMPLETE",
-      "serverSeed": "fd6619714a9b1e4079cd6210565eb1ac3dfb391e22bf17e96bab3e056d50f5eb",
-      "serverSeedHash": "bcac3cd23cc2a9f717a7bf0a2ee34978864d293990bd533dadf7915f9b0f5b56",
+      "serverSeed": "98a2743da7533325149b9614dcb250214863161f1bc32a06928458b32f0f4583",
+      "serverSeedHash": "84fb562c99437c023cb44a2483a905fbce8ec791fe5d87f89f8acf3e4247c63a",
       "winningColor": "red",
-      "winRevealedAt": 1766060630811,
+      "winRevealedAt": 1766213777426,
       "bets": []
     },
     {
-      "id": "0948f02d-d817-4da2-825b-a91abd3a68c4",
-      "startTimestamp": 1766060647570,
+      "id": "8507af95-487e-4fa5-b780-2a9ae3939c9b",
+      "startTimestamp": 1766213788937,
       "phase": "COMPLETE",
-      "serverSeed": "0db09a4463b04f85c9e832d92642637e3a1707254456fb2390c7bde3f22a1b9f",
-      "serverSeedHash": "b0e4c46f57e4c1ecefdc6210c7f2138ba9807b568a9c19355a15441043a4675c",
-      "winningColor": "green",
-      "winRevealedAt": 1766060710570,
-      "bets": []
-    },
-    {
-      "id": "32fe7915-3e60-4b5e-a4c4-a911d53b94b1",
-      "startTimestamp": 1766060723107,
-      "phase": "COMPLETE",
-      "serverSeed": "5ffe2fb5a1533e5b6cb3474d59aa8e1c50c2f12e6c168344c0ab833c8bd762fe",
-      "serverSeedHash": "68e86f458602d081be45b93bcf400a1c1d1c2b1a9d2a6bf727a9a086ff6a23b2",
+      "serverSeed": "ffe4842894e96291a87bfe9bc4408d4926945bbafafcc871c4ae622f1654a286",
+      "serverSeedHash": "947d4bdb46c8e368a9aeadbbeaad21ef8ff35347c4c62d440f8c3e79bca16e94",
       "winningColor": "blue",
-      "winRevealedAt": 1766060787357,
+      "winRevealedAt": 1766213842417,
       "bets": []
     },
     {
-      "id": "fd17ec29-e46c-4946-b565-aafb76945d0d",
-      "startTimestamp": 1766060798633,
+      "id": "31dda240-737a-4e98-b006-33c88927fadb",
+      "startTimestamp": 1766213849483,
       "phase": "COMPLETE",
-      "serverSeed": "261cf2f150d5d8154dc0b2e0486e07ce9090ce7fa6df1645fe9a0808a8d7f37b",
-      "serverSeedHash": "dbfe189af2fa4e7b49c43a1d9193b353d35e7cf52e1cdef52d05272793e15904",
-      "winningColor": "red",
-      "winRevealedAt": 1766060862497,
-      "bets": []
-    },
-    {
-      "id": "47c57f47-7c9f-40f4-8886-9b59abdc71fb",
-      "startTimestamp": 1766060874176,
-      "phase": "COMPLETE",
-      "serverSeed": "290b906b78fe77f834996be5d2daacc8ba96d791852a542ef69e69945c0910b9",
-      "serverSeedHash": "c3abab114529d3061e33e5031c6ac87a30c01ca34430e73af9573ce8dae07461",
-      "winningColor": "red",
-      "winRevealedAt": 1766060933372,
-      "bets": []
-    },
-    {
-      "id": "f27e985f-3ce2-4a98-a775-023c7b22352b",
-      "startTimestamp": 1766060949726,
-      "phase": "COMPLETE",
-      "serverSeed": "c66a9d185f2ead100de2b003686b193621f7517870a8bce9a78b1e34e8786d51",
-      "serverSeedHash": "b025722c691960f728fc9a3856061d0e791a066f1801105a4c4d95c15c294317",
-      "winningColor": "red",
-      "winRevealedAt": 1766061001264,
-      "bets": []
-    },
-    {
-      "id": "1cf27318-0e00-48ad-8be4-ce636dd9f86d",
-      "startTimestamp": 1766061025256,
-      "phase": "COMPLETE",
-      "serverSeed": "d9d078a0119cd3ae9f0d7def84ae25baa366c53a977c41ab10f2f68ed6e7020e",
-      "serverSeedHash": "2917c2465b2e4ea41810fe5a3bf64ae57896d809eab7ea7d9bb1e1f29eb7950e",
-      "winningColor": "red",
-      "winRevealedAt": 1766061093071,
-      "bets": []
-    },
-    {
-      "id": "a1f119fd-ba2b-4dfc-bba9-ae1390738e95",
-      "startTimestamp": 1766061100803,
-      "phase": "COMPLETE",
-      "serverSeed": "a61bd673c7a53d4a31e683570fd5f9722ec58bc08a7ab6cc820809bf1062394c",
-      "serverSeedHash": "8d182ceb2fa95e9b78132470da0951f420f89924924f06698f736ff3c5521906",
-      "winningColor": "red",
-      "winRevealedAt": 1766061157948,
-      "bets": []
-    },
-    {
-      "id": "0b7a4315-7116-4aa0-818b-0125a3fa9afc",
-      "startTimestamp": 1766061176337,
-      "phase": "COMPLETE",
-      "serverSeed": "0f5231541138352372d2227440fed51ef2b7cfd601c3c7a870996b3b3e837cb0",
-      "serverSeedHash": "32fa79f959647f98260a9ab09a3f30f9403ec10b2718416f94c10f72268578f8",
-      "winningColor": "green",
-      "winRevealedAt": 1766061242590,
-      "bets": []
-    },
-    {
-      "id": "b6b9dd2b-4a41-4152-9632-7c6288eb184e",
-      "startTimestamp": 1766061251861,
-      "phase": "COMPLETE",
-      "serverSeed": "a2c541b815f7a6e9e1c88abdad284c2c84ea7bdfe790cf8ff0e2d02611b49d57",
-      "serverSeedHash": "b6ced9fbfdba0b1b768b5c5f7b18a1016baefa9da4520676b2f77e3f470248fc",
-      "winningColor": "red",
-      "winRevealedAt": 1766061313602,
-      "bets": []
-    },
-    {
-      "id": "e8383dd2-4fae-4d9c-bb0f-b4b5ba114ad5",
-      "startTimestamp": 1766061327394,
-      "phase": "COMPLETE",
-      "serverSeed": "47cac292bcd0aaa202c837d8aa6e2a33177e9dd96ed803c8e14a25118d5457b8",
-      "serverSeedHash": "d2f2846c81266f705d7ca9c23fb468f53891b954440202324bb161d797fb74db",
-      "winningColor": "red",
-      "winRevealedAt": 1766061382566,
-      "bets": []
-    },
-    {
-      "id": "0fbf851e-d251-4865-9a31-cad999f89903",
-      "startTimestamp": 1766061403353,
-      "phase": "COMPLETE",
-      "serverSeed": "0c57d9a02dae010c28e6f763fe623f6a6a92041ecf92c5220e82b3783f6fba58",
-      "serverSeedHash": "396871810a06172a936260cba3fae1e24886e33bacdaafbf272193e28be60a98",
-      "winningColor": "green",
-      "winRevealedAt": 1766061459356,
-      "bets": []
-    },
-    {
-      "id": "a8055124-5b00-4365-9081-e389a4aa86e2",
-      "startTimestamp": 1766061479381,
-      "phase": "COMPLETE",
-      "serverSeed": "d6c5232b5938f099f5b1f8a15ca9946963072e1e83bdb3bc21939dab3c9653e7",
-      "serverSeedHash": "ac243758b3cc53deb14c69374e783366dad98ec38fb65bfcbd6d059e3f89bd89",
+      "serverSeed": "622356afd01f8c7ce844920e7a710b6ab54c8fe6be07bd8dd7c875c4ffffdcbd",
+      "serverSeedHash": "b82974217191497c15627f398558e0959b1f9c9ecdcac566fbb54b3a68980923",
       "winningColor": "blue",
-      "winRevealedAt": 1766061546138,
+      "winRevealedAt": 1766213900502,
       "bets": []
     },
     {
-      "id": "006ca068-ebfe-471a-9127-c83c8190c63d",
-      "startTimestamp": 1766061555283,
+      "id": "d69f790a-8509-4b7f-b2ef-ddf11a137aac",
+      "startTimestamp": 1766213910037,
       "phase": "COMPLETE",
-      "serverSeed": "d91765bbafdb8ee41af7ad800d71fdd193a16e88f760af73aaa206b29078638d",
-      "serverSeedHash": "6446f02473bf5dd81b86bb43cd4a5e2ed1383f7a69fac8d26ba1dae68ec9cb12",
+      "serverSeed": "24c838ce4072b08894468989e786543e6b84cb6456686030e37021825287e749",
+      "serverSeedHash": "e7ae2b80195122b64be27d058bb4e63322ed15d39c66c40a87249f45a3025d5d",
       "winningColor": "red",
-      "winRevealedAt": 1766061613677,
+      "winRevealedAt": 1766213962079,
       "bets": []
     },
     {
-      "id": "44b70d59-9027-4767-a466-8490516da9a6",
-      "startTimestamp": 1766061630892,
+      "id": "8381e652-26ef-4e68-a6ae-0b86068385c0",
+      "startTimestamp": 1766213970578,
       "phase": "COMPLETE",
-      "serverSeed": "657c30db1252e9f0cf8740d6bf742e3ef349e279171b0d12eb67e7095dc80ddd",
-      "serverSeedHash": "df1e69e74c7495e55e886868705b1ae7645760369e599717cf1b0e6c3cc79553",
-      "winningColor": "blue",
-      "winRevealedAt": 1766061688779,
-      "bets": []
-    },
-    {
-      "id": "5275cf86-6bd6-4da3-887c-25b588b516d4",
-      "startTimestamp": 1766061708309,
-      "phase": "COMPLETE",
-      "serverSeed": "549876926f88b3aa4a02e02f27b428738144b0e44aef435312e75fd0d8169856",
-      "serverSeedHash": "91b54fcda26fab31117bca327368ac805be64488bebe555a93a58a1a55fa8cdb",
-      "winningColor": "red",
-      "winRevealedAt": 1766061768870,
-      "bets": []
-    },
-    {
-      "id": "0e9cb7cb-2faf-4568-841b-da504cd9d844",
-      "startTimestamp": 1766061784058,
-      "phase": "COMPLETE",
-      "serverSeed": "e6897c4d07db1ba362eae08a467eda9f9b74f09caedc3a8b91cc3b055a8fd491",
-      "serverSeedHash": "be361ec1a70bcd805b24f6dbfc39d7c85fa0816364794be0abe476e26f8fe1e2",
-      "winningColor": "red",
-      "winRevealedAt": 1766061848898,
-      "bets": []
-    },
-    {
-      "id": "f8baa534-de47-4a6e-a8fd-d53719248efc",
-      "startTimestamp": 1766061859875,
-      "phase": "COMPLETE",
-      "serverSeed": "a962cff66c01bb60207e21257b6ebc6b34ca448c8507a276ff99e54d9da282c4",
-      "serverSeedHash": "82a20de442a0e3ef7444c7c8fa1cde0e81a87c64621a04351c5947e1278d2a3d",
+      "serverSeed": "8d628f45947280cf3e107ed5c316f3b23443fb2c91e00ac95a17ec146b2f3738",
+      "serverSeedHash": "95bf2e40a0ca7de0c271d822f7072db04c136c1f3fec63a012e219fa1c9b761d",
       "winningColor": "green",
-      "winRevealedAt": 1766061926896,
+      "winRevealedAt": 1766214025759,
       "bets": []
     },
     {
-      "id": "69f3decb-c37b-466f-acc5-2f0f8c3329a6",
-      "startTimestamp": 1766061935630,
+      "id": "5891b354-bcac-43f0-bc0f-cc55744557cd",
+      "startTimestamp": 1766214031143,
       "phase": "COMPLETE",
-      "serverSeed": "9e4e0594f4916ff6e9bf014bceedf8625ed79e77adb6f8efe09e1f103585d500",
-      "serverSeedHash": "af98b9f9c4aabb59a4b54fa723ef1d72058196675a5d5adad44763037e296d97",
-      "winningColor": "blue",
-      "winRevealedAt": 1766061989344,
-      "bets": []
-    },
-    {
-      "id": "d4cdac3b-34c5-4fd9-8434-5e9144555c38",
-      "startTimestamp": 1766062011165,
-      "phase": "COMPLETE",
-      "serverSeed": "eca13ed4da7425a62704e378f54738e709e11c3f5e742e8b2b377cf9c0183873",
-      "serverSeedHash": "9f8a95e10b6dfd2d02dc65d99a900c84edea897dfe6e613be18d16b87cbb114e",
+      "serverSeed": "de3849df097bbc1f8dbf255fc4abcad47aceba96c04fb16ae8a4b0a661c5bfc4",
+      "serverSeedHash": "94a4048a7fc981f521f85562e91af2592d2fd218ba1a7f97e1cf2a0e6d6f4560",
       "winningColor": "green",
-      "winRevealedAt": 1766062076993,
+      "winRevealedAt": 1766214083678,
       "bets": []
     },
     {
-      "id": "9a14ef68-8b2e-440d-a000-d20c98ec7aba",
-      "startTimestamp": 1766062086699,
+      "id": "dd668450-e951-45c5-a427-15dbf831f210",
+      "startTimestamp": 1766214091674,
       "phase": "COMPLETE",
-      "serverSeed": "31238198e8f5ba58739a164bb6c77f6118ac0939e0f06759085339ef0738447f",
-      "serverSeedHash": "72069449f5d9fff906c1db9d1d7d90cd0903ce8142ad0c8e97fb33279a151f9d",
-      "winningColor": "red",
-      "winRevealedAt": 1766062155911,
-      "bets": []
-    },
-    {
-      "id": "90f306ff-cf0a-459b-beab-d82467821960",
-      "startTimestamp": 1766062162246,
-      "phase": "COMPLETE",
-      "serverSeed": "8fd3807f7e4775c40b40209dec5f4c1b7ae128f3894c682074b8e9bf6df5cb74",
-      "serverSeedHash": "374dfea7a7e1fea415316bba61f45bd8676e534c76ea1e5c617379bac85884a3",
+      "serverSeed": "2b40ac027ddd59b5079bbfefbef572cdb0a51f0ff776d0cd1070fe4f28a66c72",
+      "serverSeedHash": "ac296e198611e5921ff735f438da376bc460a76b34a2cad7cb94bddca043de34",
       "winningColor": "green",
-      "winRevealedAt": 1766062218459,
+      "winRevealedAt": 1766214139909,
       "bets": []
     },
     {
-      "id": "f83cede6-f891-40fa-aceb-18c93a87c197",
-      "startTimestamp": 1766062237796,
+      "id": "c61b556f-3b9a-4642-94e5-bbaed99088f8",
+      "startTimestamp": 1766214152247,
       "phase": "COMPLETE",
-      "serverSeed": "00acb9c8dfdf01a13c6bfe8c54c6169992cceb3282df03c3080ad55b929ac670",
-      "serverSeedHash": "2b05f664251371a7cbb6060f7b183d225315ea7511a1ac459d15ef7aba9cc1a2",
-      "winningColor": "blue",
-      "winRevealedAt": 1766063785189,
-      "bets": []
-    },
-    {
-      "id": "82b70e13-4bd3-4b7d-9dd9-60d0f300f1ce",
-      "startTimestamp": 1766063786187,
-      "phase": "COMPLETE",
-      "serverSeed": "b9fe21f008e5781098e6aa612dec72d757351790034401495b65065ed757b3a4",
-      "serverSeedHash": "0664059a76adf2637c86f95d91a3963865f71af5cf0fec4514fd9f777bd861c2",
-      "winningColor": "red",
-      "winRevealedAt": 1766068829138,
-      "bets": []
-    },
-    {
-      "id": "e1572b2a-78a1-4088-bb7d-a5edd9c62125",
-      "startTimestamp": 1766068849006,
-      "phase": "COMPLETE",
-      "serverSeed": "c08c1e037fd2d2d26cc3acc67b0383e7a606f3be861d349867799e0227c648b6",
-      "serverSeedHash": "1f0aea40f4d6f0c4e9b6aecab60f1e2ada1958667d67905fb57976e96a68e4ed",
-      "winningColor": "red",
-      "winRevealedAt": 1766068903754,
-      "bets": []
-    },
-    {
-      "id": "27c07db7-dbf8-47b1-8c62-505957ee1833",
-      "startTimestamp": 1766068924542,
-      "phase": "COMPLETE",
-      "serverSeed": "63edff8b3c0d00ee7235c00c7b4a44a46a31d921a3f7ca528e43c7ce2bdc040a",
-      "serverSeedHash": "7321a21c9b41e22e863db7094905eb81360810fb7aa6416bf2838ce1a7d2f483",
-      "winningColor": "blue",
-      "winRevealedAt": 1766068990562,
-      "bets": []
-    },
-    {
-      "id": "d41ef136-19b3-4da3-95d7-c83f9eb4798c",
-      "startTimestamp": 1766069000076,
-      "phase": "COMPLETE",
-      "serverSeed": "a9b7b784d43e1be258995319f1399b72bc45f1266a89a9e70c77c543d95ff7c3",
-      "serverSeedHash": "e51652f8d8f516edd9fa2bc0bd6fbcd385176af8436213e0648c3d7c80aaf352",
-      "winningColor": "red",
-      "winRevealedAt": 1766069061440,
-      "bets": []
-    },
-    {
-      "id": "68783c24-ff37-4d35-8453-79caad143cef",
-      "startTimestamp": 1766069075626,
-      "phase": "COMPLETE",
-      "serverSeed": "660879de97fd4d8e68f47aa80d23379e3a48dff17e0998b91482143067cc4701",
-      "serverSeedHash": "4183fed5371aa071bed12c58b71bc0bc0342b4adc461bc64ba5402ea048f38fc",
-      "winningColor": "red",
-      "winRevealedAt": 1766069134237,
-      "bets": []
-    },
-    {
-      "id": "0a4aa3b9-afe7-4299-aecb-08d8683ab36d",
-      "startTimestamp": 1766069151180,
-      "phase": "COMPLETE",
-      "serverSeed": "d81e1824343976d8e54bf599bc0142edf857dfa1984be8211a9ac350057fdd3f",
-      "serverSeedHash": "9c7befa64316ec91b81f95a24c8a4638f4ca2baedf39a1b1e68955f4d0ac0ee3",
-      "winningColor": "blue",
-      "winRevealedAt": 1766069201514,
-      "bets": []
-    },
-    {
-      "id": "fd95d935-bdf7-4f2f-a6eb-1ab7673f7983",
-      "startTimestamp": 1766069226720,
-      "phase": "COMPLETE",
-      "serverSeed": "52b85ce3380e25b3e15a9d4790375b787ca54feea0d71ced46f21a07e055e753",
-      "serverSeedHash": "8bfd19034e608f6208cb85e12069de5342b0f7ceb081602dff83aa10e5729676",
+      "serverSeed": "34641138a280d792cf4f9872e91ae9c7ae216e8a24eaa0713bba9c3d16fb4a57",
+      "serverSeedHash": "639eaf044768ddd707f4261ba55b0bb8abd5560f1108473403772b4389b31903",
       "winningColor": "green",
-      "winRevealedAt": 1766069289306,
+      "winRevealedAt": 1766214201460,
       "bets": []
     },
     {
-      "id": "94d36e44-3145-43f1-972a-fbc328551014",
-      "startTimestamp": 1766069302256,
+      "id": "4a9b228b-9016-4f02-82d8-2cd66a4aa436",
+      "startTimestamp": 1766214212776,
       "phase": "COMPLETE",
-      "serverSeed": "53f1c6c445568b6d1cc1c81ad715d79901d080ab0720512ab57252c26861d567",
-      "serverSeedHash": "fb097b6367cb39ff95c29ad83f63d3559776561e03f260cb7be4a1fe460682c2",
+      "serverSeed": "700e53ae973366267dc1a3a943d7611509418c0ab0c0ad04168e8a20fe071a1b",
+      "serverSeedHash": "58154d116325c1e3a3d6187c7de4eeed5df160c1a3285f60319b073ddc969f18",
       "winningColor": "blue",
-      "winRevealedAt": 1766069358885,
+      "winRevealedAt": 1766214265364,
       "bets": []
     },
     {
-      "id": "bccb244f-a272-489c-9f00-7d5f4329e938",
-      "startTimestamp": 1766069377795,
+      "id": "a92a3b67-a681-4a94-815e-6c7915b1c8ec",
+      "startTimestamp": 1766214273325,
       "phase": "COMPLETE",
-      "serverSeed": "f13cc2539c22c6590e43c731bb99cdb824af97c6c92f2dd26302b3a2c29e3c21",
-      "serverSeedHash": "41c16621c3063e7f300f162e6b354f1f08e69e5852bc34a56ff8fa50aa81f759",
-      "winningColor": "green",
-      "winRevealedAt": 1766069446873,
-      "bets": []
-    },
-    {
-      "id": "c12874a1-6ef0-418d-a5c3-a0dab0469fb2",
-      "startTimestamp": 1766069453334,
-      "phase": "COMPLETE",
-      "serverSeed": "1228daca277c1b1663c62b562b7f9ef20127470664f5c12759c40b9c44a2b15b",
-      "serverSeedHash": "9853e9fce11f84606e58e2f5327bae57dc9740fbe2542a0423578b082ee8cc44",
-      "winningColor": "red",
-      "winRevealedAt": 1766069520013,
-      "bets": []
-    },
-    {
-      "id": "cc51c762-fb64-4979-8b41-059e675c58a6",
-      "startTimestamp": 1766069528875,
-      "phase": "COMPLETE",
-      "serverSeed": "553fe3cf142daa34a0c2cac6cefad1b5cb9032891e644222428bf90bd1b6ad69",
-      "serverSeedHash": "57853b1bc86d83859590ce0c62c74993ed07f53365a49c557c9978240d64f6c7",
-      "winningColor": "red",
-      "winRevealedAt": 1766069599042,
-      "bets": []
-    },
-    {
-      "id": "c08f3d90-9d4f-4612-88db-6617a642019f",
-      "startTimestamp": 1766069604404,
-      "phase": "COMPLETE",
-      "serverSeed": "018b587d5531c5a6a2931ce94af29cd39e8e2f746be98629298092cfe8817e34",
-      "serverSeedHash": "9e5e9b81f05132a6aa629c989a92fb061914eb935fbe9270c962d6a10cce88e8",
-      "winningColor": "red",
-      "winRevealedAt": 1766069670394,
-      "bets": []
-    },
-    {
-      "id": "6382bef4-88c8-4941-80b4-0ba955d33548",
-      "startTimestamp": 1766069679932,
-      "phase": "COMPLETE",
-      "serverSeed": "6cc2fe396c6c7ec56ef877d4087707b10774bd73f05128061f1b09e4093423b0",
-      "serverSeedHash": "00076e668c0d7d19bd1e2c7c04e155cb11eb19ae46d13d823557400bc7fe52c5",
-      "winningColor": "green",
-      "winRevealedAt": 1766069746300,
-      "bets": []
-    },
-    {
-      "id": "63d8e00a-6087-43ea-9e6b-6fa804def04d",
-      "startTimestamp": 1766069755464,
-      "phase": "COMPLETE",
-      "serverSeed": "ab43f6a3a68b8e7e094412f9f718b70b5e9e4f934f500c141cca8b1c5b5cd7a6",
-      "serverSeedHash": "a4ab41fd7146d246529f53390a7f6511c2fd30f4a45c5bec1af36dad84fc1e76",
-      "winningColor": "green",
-      "winRevealedAt": 1766069825824,
-      "bets": []
-    },
-    {
-      "id": "6f94f993-f300-44e3-8099-2eb35c575f0b",
-      "startTimestamp": 1766069831005,
-      "phase": "COMPLETE",
-      "serverSeed": "d06662858d340765cba88c20019ad8c3c354f6c2812357b251eed59165b1c132",
-      "serverSeedHash": "25caa8098dd77b9dd76a6c5ddbdfea6dc8bb0d5fe5b54372c82d1e645fd4ab3c",
+      "serverSeed": "8fb272c934198cc9c07f092cd4e4a9b7bbeeaa4a3c37e8f84e31bf346c835a63",
+      "serverSeedHash": "2692d6f3d67dc15d739bbaea72024a56464edf73523525331bf959243640bd2d",
       "winningColor": "blue",
-      "winRevealedAt": 1766069885713,
+      "winRevealedAt": 1766214322251,
       "bets": []
     },
     {
-      "id": "4b50b9e9-ca0f-4a35-babb-ff2974204a44",
-      "startTimestamp": 1766069906532,
+      "id": "28ed4994-a242-424d-b17d-51ae46112452",
+      "startTimestamp": 1766214478651,
       "phase": "COMPLETE",
-      "serverSeed": "fc5f1c92f1e77abdda82d306406dce845fb84628631b1250f09aedc7d1c3e884",
-      "serverSeedHash": "4565534b314e0e1ae3080f891eab3f19f9619f9b9660845f1688a982ea104334",
-      "winningColor": "red",
-      "winRevealedAt": 1766069969131,
-      "bets": []
-    },
-    {
-      "id": "dacd1e7a-f6fe-4bfc-92b5-cf47957fe906",
-      "startTimestamp": 1766069982071,
-      "phase": "COMPLETE",
-      "serverSeed": "5874117ef5afd67d7368210560d2ed02ee1877fbbd838d2eceb673200fbd71fe",
-      "serverSeedHash": "4528d4680efddbe2e76ed35c11062023c8440cd27ea7c9c93116018886547c72",
-      "winningColor": "red",
-      "winRevealedAt": 1766070036037,
-      "bets": []
-    },
-    {
-      "id": "15283e5e-26f3-40c7-878e-d7136c402a6e",
-      "startTimestamp": 1766070057604,
-      "phase": "COMPLETE",
-      "serverSeed": "2e3d81d1a7666f79b30c9dd021cd8c4b84b6a2c202cca660673a14417d86e316",
-      "serverSeedHash": "b23195a2ce1f2c1927a214cc9b05d76e0358eaa4872f89d86712dc84fb5fbbe0",
-      "winningColor": "blue",
-      "winRevealedAt": 1766070117001,
-      "bets": []
-    },
-    {
-      "id": "2f281272-21d1-412d-b579-eb4c59b91a62",
-      "startTimestamp": 1766070133135,
-      "phase": "COMPLETE",
-      "serverSeed": "251c598bc9099c84df22936638dce9d9b6d7d1f53ef49c98a5ddedfa20d5cddf",
-      "serverSeedHash": "0371ee0a6fcd39d6dc31cff15f9f11a7be13462e20f40ffa40c380eca5550ecd",
-      "winningColor": "red",
-      "winRevealedAt": 1766070184149,
-      "bets": []
-    },
-    {
-      "id": "c8895765-8338-4a4b-85d4-b83e101d5a4b",
-      "startTimestamp": 1766070208686,
-      "phase": "COMPLETE",
-      "serverSeed": "a83a8e21735e1a40fe4f5d6b6e78f96fd3ef7946aeefde677c4ef3eaf375ff1d",
-      "serverSeedHash": "dfab8d0f9248059aa4dab0fe852d34e259f1170b5ea9cb5663ee160dffc5edd3",
-      "winningColor": "red",
-      "winRevealedAt": 1766070271479,
-      "bets": []
-    },
-    {
-      "id": "53cc947d-70e2-440b-8482-de6b5d8c112d",
-      "startTimestamp": 1766070284218,
-      "phase": "COMPLETE",
-      "serverSeed": "728ef89482dfdc488e0ab4967479aa991c2c4d48fdef1be2baa03824fa43dcd8",
-      "serverSeedHash": "47b098747a7e2d4b673f0eafa707fcfc52b682b770ab1a35c7cce29d535e36bd",
-      "winningColor": "red",
-      "winRevealedAt": 1766070339573,
-      "bets": []
-    },
-    {
-      "id": "a551ff34-52a0-480e-ad58-fb0b41081737",
-      "startTimestamp": 1766070359768,
-      "phase": "COMPLETE",
-      "serverSeed": "5a0d272d1dbe522516c7fe3d60bf1c4ce04f54458f67fb2e07fea5d51e4493f6",
-      "serverSeedHash": "d98a7b768b68bcc1159880a98bdf8e1588f34f852261aa2f33590cbee0cdef07",
-      "winningColor": "blue",
-      "winRevealedAt": 1766070423948,
-      "bets": []
-    },
-    {
-      "id": "0cf737ba-36ee-481f-a251-3ae9ae09f6de",
-      "startTimestamp": 1766070435298,
-      "phase": "COMPLETE",
-      "serverSeed": "52bb3c25412f71f7641cf443274eb91af1e9de340ac76bba6ddedb874545a577",
-      "serverSeedHash": "6d1107619975dab62f5367fcdbd6a5a11ff780a80bffc4653960d8415376358b",
+      "serverSeed": "58759cf6f9036e700802963ec252340d62a4fb0036ae029548366912e29af90d",
+      "serverSeedHash": "60311adb98c002b074176dcd8a2d1e8374369d54a18c48186cad41d61059dafd",
       "winningColor": "green",
-      "winRevealedAt": 1766070490451,
-      "bets": []
+      "winRevealedAt": 1766214533798,
+      "bets": [
+        {
+          "id": "9e7ecd88-b639-4a3d-b202-11bf7b700b4e",
+          "roundId": "28ed4994-a242-424d-b17d-51ae46112452",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766214521658
+        }
+      ]
     },
     {
-      "id": "85a85176-5830-4221-9d73-22501953f4ef",
-      "startTimestamp": 1766070510843,
+      "id": "3a1b01f0-1bcf-40e0-902e-cd35a22515f7",
+      "startTimestamp": 1766214539202,
       "phase": "COMPLETE",
-      "serverSeed": "19aa96b4af0689ebf5e9e12413c66ded8c2a2f6abaeb8c72aede513c7246ce03",
-      "serverSeedHash": "4fc2ff52df11c1775dcc72528f3d43aa2fc8b87e0e95119a6d27c8a102af461e",
+      "serverSeed": "b4c0ebf50e941ce0a2f507e2531c9e285eade249cf1d0b13d3999c6e699842f1",
+      "serverSeedHash": "24a990875f0a4f0e87a6bdf19e49d2e7ed6a4483ea096f9da9b09587ca5ed7a0",
+      "winningColor": "green",
+      "winRevealedAt": 1766214587598,
+      "bets": [
+        {
+          "id": "3ba12d7a-6c53-4043-b7a1-d23c645cfd10",
+          "roundId": "3a1b01f0-1bcf-40e0-902e-cd35a22515f7",
+          "userId": "user_950f7b26",
+          "amount": 80,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766214556970
+        },
+        {
+          "id": "38348a31-6a92-4efc-8235-2b85e5da1f00",
+          "roundId": "3a1b01f0-1bcf-40e0-902e-cd35a22515f7",
+          "userId": "user_950f7b26",
+          "amount": 60,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766214563481
+        },
+        {
+          "id": "5c4236f8-ef84-4f4e-bec1-799b8542e20e",
+          "roundId": "3a1b01f0-1bcf-40e0-902e-cd35a22515f7",
+          "userId": "user_950f7b26",
+          "amount": 60,
+          "color": "green",
+          "wonAmount": 118.8,
+          "status": "won",
+          "createdAt": 1766214564872
+        }
+      ]
+    },
+    {
+      "id": "06453fe9-95d5-4b2b-80f4-46af5d66cc6b",
+      "startTimestamp": 1766214599725,
+      "phase": "COMPLETE",
+      "serverSeed": "5dac2525ef4fb6a7ce7276fab2c5a98e74103de1ef49561ef24779456500e3e2",
+      "serverSeedHash": "b9aca875ce58880dae7345fa8e4a064b01d6617535f2b8e953900cee43b238d7",
+      "winningColor": "green",
+      "winRevealedAt": 1766214650858,
+      "bets": [
+        {
+          "id": "e8d78d17-61a2-43e9-8d89-c4ec921a35ee",
+          "roundId": "06453fe9-95d5-4b2b-80f4-46af5d66cc6b",
+          "userId": "user_950f7b26",
+          "amount": 80,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766214618600
+        },
+        {
+          "id": "fb6f6767-c18a-453d-8d07-450ef83212ad",
+          "roundId": "06453fe9-95d5-4b2b-80f4-46af5d66cc6b",
+          "userId": "user_950f7b26",
+          "amount": 140,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766214621375
+        },
+        {
+          "id": "7138b5ce-df4a-481a-99c2-c320fd9ad8a3",
+          "roundId": "06453fe9-95d5-4b2b-80f4-46af5d66cc6b",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "green",
+          "wonAmount": 990,
+          "status": "won",
+          "createdAt": 1766214630982
+        }
+      ]
+    },
+    {
+      "id": "ed93eadc-8949-41a7-a79a-a1d63d793eb5",
+      "startTimestamp": 1766214660280,
+      "phase": "COMPLETE",
+      "serverSeed": "81043f5d16000d3e233760f75344af80860adb6acb0b860b456d6e6ef1be949f",
+      "serverSeedHash": "7a5cd6a795ebcb2d41e11ec48dd05adc3e44ef34d430b3088b9a9c120a75000e",
       "winningColor": "red",
-      "winRevealedAt": 1766070566891,
-      "bets": []
+      "winRevealedAt": 1766214716165,
+      "bets": [
+        {
+          "id": "9aca92c8-49c0-40d2-8700-fb5f1398d46c",
+          "roundId": "ed93eadc-8949-41a7-a79a-a1d63d793eb5",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766214678235
+        },
+        {
+          "id": "272c3bf2-7638-4bff-9b8d-fe40520781f7",
+          "roundId": "ed93eadc-8949-41a7-a79a-a1d63d793eb5",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "red",
+          "wonAmount": 990,
+          "status": "won",
+          "createdAt": 1766214681566
+        },
+        {
+          "id": "d6494f1c-8c96-443b-b82e-4e85632790a3",
+          "roundId": "ed93eadc-8949-41a7-a79a-a1d63d793eb5",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766214683999
+        }
+      ]
     },
     {
-      "id": "be95cb4c-a592-4fc3-ad6d-b6d3fe61b18a",
-      "startTimestamp": 1766070586386,
+      "id": "f585d95b-b0f0-4f39-8582-0dcd82c6ddce",
+      "startTimestamp": 1766214720821,
       "phase": "COMPLETE",
-      "serverSeed": "c57956edd871a54236cf9c6aadd1d8240ca9f3c08d6b4d6c4912bf43bf867193",
-      "serverSeedHash": "441283d04d0f9d013a152998b5f79fa4e656c19d50cecd2ca5410d15706f98a1",
-      "winningColor": "red",
-      "winRevealedAt": 1766070638726,
-      "bets": []
-    },
-    {
-      "id": "793fe914-aeb7-4970-ac64-31a006b69075",
-      "startTimestamp": 1766070661927,
-      "phase": "COMPLETE",
-      "serverSeed": "bf077f7daddb1af377a1e4dd073b769b9f4da148c3509683dcd92d28ee324e60",
-      "serverSeedHash": "ee42d6dac448fcfa80de996545c7b537831a8cda7db73533f065395facd4f0a7",
-      "winningColor": "red",
-      "winRevealedAt": 1766070729867,
-      "bets": []
-    },
-    {
-      "id": "fe1fa0ba-92fc-44a3-a450-939739d98e6a",
-      "startTimestamp": 1766070737450,
-      "phase": "COMPLETE",
-      "serverSeed": "b448575850c07d1ecc8dbde91c2fb3cf69dca72ba9db630ee4a573ec422f225d",
-      "serverSeedHash": "6865a9b3d7406d3ec24575bdefa16fc065a81b2fdf63c6e0472a57fff5e2e4de",
-      "winningColor": "red",
-      "winRevealedAt": 1766070805065,
-      "bets": []
-    },
-    {
-      "id": "3d906adc-64d9-427f-9a1f-4ceec8a4b663",
-      "startTimestamp": 1766070813007,
-      "phase": "COMPLETE",
-      "serverSeed": "074928e05db9d0915b31d3b73bcfffd21252b3a31612f686b7ef772dfdbae4de",
-      "serverSeedHash": "ffff027b73d254d3c1d91591973191ec45055febeabe07b1522d465b0aefefe0",
-      "winningColor": "red",
-      "winRevealedAt": 1766070874001,
-      "bets": []
-    },
-    {
-      "id": "842aaef9-d4af-4afa-b099-71e61e24bb6d",
-      "startTimestamp": 1766070888544,
-      "phase": "COMPLETE",
-      "serverSeed": "ee336b53ddada15aed3dda0623a460cc60a14aa7a1ce6ffaed194a255c0e805d",
-      "serverSeedHash": "7a8e000656feecc100b6633efc824e009d392836cb5690f5deecdb12db031c87",
+      "serverSeed": "867caa5bf132ce2b9b1e022556655b7abf00274b62937bae4e93f48277b9cf50",
+      "serverSeedHash": "92a311c15518901dc4c29bfadc97ddb659be2e5b86ab4269b5be78b9abddf913",
       "winningColor": "blue",
-      "winRevealedAt": 1766070955190,
+      "winRevealedAt": 1766214776284,
       "bets": []
     },
     {
-      "id": "b98b11d2-b396-420f-99d8-7e38bdf74a8b",
-      "startTimestamp": 1766070964095,
+      "id": "a5677f6e-2cb9-4db5-8168-2486446a8a66",
+      "startTimestamp": 1766214781390,
       "phase": "COMPLETE",
-      "serverSeed": "d740dcb2866aabff2aa112f43d5b7b5a948054f2efbe1f6ec7e38b677d6f8ff6",
-      "serverSeedHash": "ed2f91a816c784d879e8d64c37ef5cb52ca1745b7908b248a14941ba36cdf48a",
-      "winningColor": "green",
-      "winRevealedAt": 1766071016688,
-      "bets": []
-    },
-    {
-      "id": "11a0b7d5-fad3-44ba-8d5c-f609a959573a",
-      "startTimestamp": 1766071039640,
-      "phase": "COMPLETE",
-      "serverSeed": "2932a915ac86c6b0dc278d45b57cbc320fd94ddeaeb22fd36832e926463ddb5a",
-      "serverSeedHash": "21a13093bdf5bf36415a93eeecdb3b4bf03ded2fb2aabf6d5d26065c3968d46f",
-      "winningColor": "green",
-      "winRevealedAt": 1766071105005,
-      "bets": []
-    },
-    {
-      "id": "cb64b917-b9b2-4461-be50-c23ac2d15fba",
-      "startTimestamp": 1766071115180,
-      "phase": "COMPLETE",
-      "serverSeed": "d8a014d12958d51689ff3abced537d1adb652d138b4a5b3598fdafed66896e79",
-      "serverSeedHash": "2038f669ce3a893fe161d9d1e7366dd5c7fc4b13f73e351ad5f04eb5efb33652",
+      "serverSeed": "22392e4b6228ab8422bd24637dfae9304b65cdc230eb71d2e81597b914c8806b",
+      "serverSeedHash": "49dfa329ec6ff84343a4a2db98aa4edfcf8e550161ca446fbb57b5432569b544",
       "winningColor": "red",
-      "winRevealedAt": 1766071171414,
+      "winRevealedAt": 1766214830560,
       "bets": []
     },
     {
-      "id": "3e4fe348-89cb-4cd0-ba4e-fafddc9997a0",
-      "startTimestamp": 1766071190724,
+      "id": "d641505a-f727-438a-98d6-1511814d0649",
+      "startTimestamp": 1766214841924,
       "phase": "COMPLETE",
-      "serverSeed": "75cb6e598f5d85bab480d35228ea93c40475bee67de452f038ea0a58db522741",
-      "serverSeedHash": "c3f8a999365bc2f58846342b64f980ab0a3c38495760daafef7b9d53f1994fd0",
+      "serverSeed": "ee11fc7f80d58a148a2f7d80680e7a7f95b3a747a46db48cbaf3412f661bacd4",
+      "serverSeedHash": "25842503c1739b0e815f77562f6ab3e65d5c24f7417251531786f02fab58e391",
+      "winningColor": "green",
+      "winRevealedAt": 1766214896025,
+      "bets": []
+    },
+    {
+      "id": "663b39d1-4ef9-44c0-9b6d-3a65805a51b8",
+      "startTimestamp": 1766214902466,
+      "phase": "COMPLETE",
+      "serverSeed": "ed6873e6a605b18415dbd8166a56ed28e43da6f96234f71a6532f03518fb3b5a",
+      "serverSeedHash": "e8307730a180d6ee12adc43c157ac0d2610133ed00050a0fd35bce2edebdb1f3",
+      "winningColor": "green",
+      "winRevealedAt": 1766214953438,
+      "bets": []
+    },
+    {
+      "id": "0a4bf026-51d1-45ec-9b7d-73196ca8fd25",
+      "startTimestamp": 1766214963027,
+      "phase": "COMPLETE",
+      "serverSeed": "032469fa7d65f77aa862c3ebfc0038e6ea12a66e3f24f52ac56e27ec71d77e82",
+      "serverSeedHash": "6baf2579aae2e3988fda9a461037bacfa71e073b4d8eb643b6671ee80f4a1d08",
       "winningColor": "red",
-      "winRevealedAt": 1766071245576,
+      "winRevealedAt": 1766215016842,
+      "bets": []
+    },
+    {
+      "id": "202512200001",
+      "startTimestamp": 1766215079097,
+      "phase": "COMPLETE",
+      "serverSeed": "283101e7506a73f506f4ecae1e8e77a58ed20d3d1b25147ff56b049a7302ebbb",
+      "serverSeedHash": "37b989331f27280176be69c8ceb5c9149635a169eb96efa30a42db3b49cbb209",
+      "winningColor": "green",
+      "winRevealedAt": 1766215131539,
+      "bets": []
+    },
+    {
+      "id": "202512200002",
+      "startTimestamp": 1766215139643,
+      "phase": "COMPLETE",
+      "serverSeed": "f2e646e795506575245c3d1cb1f023c5b9f3ad4347ad6567ae2675ed7a9b8d7f",
+      "serverSeedHash": "3fcfe6847c30993443491c0fd0ce19e3ce00b549f4e3caabda71afe6f5e777c7",
+      "winningColor": "blue",
+      "winRevealedAt": 1766215196111,
+      "bets": []
+    },
+    {
+      "id": "202512200003",
+      "startTimestamp": 1766215200194,
+      "phase": "COMPLETE",
+      "serverSeed": "1c8fe88716eaa74eeafd4b6cfee6578ab1d50428dc8046378b33c0ca693919ff",
+      "serverSeedHash": "cb7301362ab57be34c35a58cd40036c4b2f2bae1731f9bb4f6925d2c1ac3642d",
+      "winningColor": "red",
+      "winRevealedAt": 1766215251777,
+      "bets": []
+    },
+    {
+      "id": "202512200004",
+      "startTimestamp": 1766215260737,
+      "phase": "COMPLETE",
+      "serverSeed": "d1128f848b4aa5ea571168dafaf32da46ef8213de1c1559a1f2735ce4eeedbfb",
+      "serverSeedHash": "9a81a79b1a124dd33de68d06f29d8f3ea1c5519213fe1473d5b53b42a8a9480a",
+      "winningColor": "red",
+      "winRevealedAt": 1766215318002,
+      "bets": []
+    },
+    {
+      "id": "202512200005",
+      "startTimestamp": 1766215321299,
+      "phase": "COMPLETE",
+      "serverSeed": "404f233e69e3a8f7da3e0ee6baa198a06e676fc4b891668fafb788ded991d262",
+      "serverSeedHash": "ea7a09e6f7e2c1e7182b2d9e561280b6933223042b2390ed6fafd895caee0348",
+      "winningColor": "green",
+      "winRevealedAt": 1766215372977,
+      "bets": []
+    },
+    {
+      "id": "202512200006",
+      "startTimestamp": 1766215381830,
+      "phase": "COMPLETE",
+      "serverSeed": "9afec42d99116c6e1b4a1c683aa7bc5152321f09ceffbce90f68d4f45d401ed3",
+      "serverSeedHash": "559d472ad727ff76eb45681f79ebe669843fc773dff7c8c4ccd958fecd107bb4",
+      "winningColor": "red",
+      "winRevealedAt": 1766215439603,
+      "bets": []
+    },
+    {
+      "id": "202512200007",
+      "startTimestamp": 1766215442372,
+      "phase": "COMPLETE",
+      "serverSeed": "6d38be531cc646d7e61ba6a56e885abb51f964c2a3d8177741ac41c5103cb585",
+      "serverSeedHash": "281ebd01ff30da8fa2a41970a61489ea073cb1b5fe886de8d6e18cb6e478f784",
+      "winningColor": "blue",
+      "winRevealedAt": 1766215492878,
+      "bets": []
+    },
+    {
+      "id": "202512200008",
+      "startTimestamp": 1766215502909,
+      "phase": "COMPLETE",
+      "serverSeed": "5433f8d0425eeba58e462584cdad53a731f9322f5c00873ef0fecf92b6a6c8a3",
+      "serverSeedHash": "a851c1621f293f2bcfc12a2dbed412e6bd6be2bdcc46bcb50b2b274887ca5331",
+      "winningColor": "green",
+      "winRevealedAt": 1766215557326,
+      "bets": []
+    },
+    {
+      "id": "202512200009",
+      "startTimestamp": 1766215563451,
+      "phase": "COMPLETE",
+      "serverSeed": "534ba9f3ba2098efe947a80fe81301e02d85ff051683f6cccd0d5e5d746517c6",
+      "serverSeedHash": "b34236b8974241aa9f7e800f0a0ed156f3b0db1bf3eb71068d393b3cff3e7eb2",
+      "winningColor": "red",
+      "winRevealedAt": 1766215611169,
+      "bets": []
+    },
+    {
+      "id": "202512200010",
+      "startTimestamp": 1766215623998,
+      "phase": "COMPLETE",
+      "serverSeed": "bbf7cf7d254b3d66d49d817db1e0cb5b1262ca3ab71ccc1644bfae0852869868",
+      "serverSeedHash": "8b6d2e36c2beb8f6a7cc4615c155b5dcdb3fa52ab695d4c5966f4b99faa9dda2",
+      "winningColor": "red",
+      "winRevealedAt": 1766215680418,
+      "bets": []
+    },
+    {
+      "id": "202512200011",
+      "startTimestamp": 1766215684537,
+      "phase": "COMPLETE",
+      "serverSeed": "2c49f8c513d3801cae8b83580604b7bcea253142ff6f5ba0d7fde05bda193b0e",
+      "serverSeedHash": "2d69bc32deeae9a4120a8d18dc0a6b2c7b5942aff6fa786e0ff83c55383eb7fd",
+      "winningColor": "blue",
+      "winRevealedAt": 1766215739801,
+      "bets": []
+    },
+    {
+      "id": "202512200012",
+      "startTimestamp": 1766215745072,
+      "phase": "COMPLETE",
+      "serverSeed": "f84f41f703badcd16a4bcbab5d4b086a8bb6c59e5d0106af15df5a5fb06769a8",
+      "serverSeedHash": "b30d9cde7c0f6af2ed3ea4c022d8054df8d7f5b789955ab6801b06d1488c3e2b",
+      "winningColor": "blue",
+      "winRevealedAt": 1766215796190,
+      "bets": []
+    },
+    {
+      "id": "202512200013",
+      "startTimestamp": 1766215805604,
+      "phase": "COMPLETE",
+      "serverSeed": "9807d123876108f3bf8bdfbd05219a3a7d809f4a65e70fec1842a9a4d1c2eeee",
+      "serverSeedHash": "9e28e4b3c5214f72aa8241948359b343b2f55f3ffb99e16ada9e6bb2fdb8263d",
+      "winningColor": "red",
+      "winRevealedAt": 1766215853503,
+      "bets": []
+    },
+    {
+      "id": "202512200014",
+      "startTimestamp": 1766215866152,
+      "phase": "COMPLETE",
+      "serverSeed": "d9f098f8afede84512119d31b7880f21e8a8017d69f846a7be73c3dc850c63bf",
+      "serverSeedHash": "28b6110050811cdc7d284547b175d88315b6c7206fa5bbf029cd4c02fe9b832a",
+      "winningColor": "green",
+      "winRevealedAt": 1766215919622,
+      "bets": []
+    },
+    {
+      "id": "202512200015",
+      "startTimestamp": 1766215926706,
+      "phase": "COMPLETE",
+      "serverSeed": "642ec28912f77d22e6898000d203d4161eb3529cd01b425fc6a90cde2b4ad4f5",
+      "serverSeedHash": "8a4a2be65c11b04c01f26c45939a770cd6d26856a6e9e79bc3bcf816da7b2cab",
+      "winningColor": "green",
+      "winRevealedAt": 1766215980103,
+      "bets": []
+    },
+    {
+      "id": "202512200001",
+      "startTimestamp": 1766216030284,
+      "phase": "COMPLETE",
+      "serverSeed": "dccfd0c08341cb07f430d8818071f85923e6f9c673cc4ef8de974a4aa06f30cd",
+      "serverSeedHash": "ed119893eea9caf87de94809c9f4aeccbff0950b5a71cc5e6aa349fb52dad2a6",
+      "winningColor": "red",
+      "winRevealedAt": 1766216081521,
+      "bets": [
+        {
+          "id": "d00effd7-854e-428c-8cbb-31874ec78906",
+          "roundId": "202512200001",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 19.8,
+          "status": "won",
+          "createdAt": 1766216068258
+        },
+        {
+          "id": "a2e2c4af-60ad-475d-90b4-ad8c3e5fbc25",
+          "roundId": "202512200001",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 19.8,
+          "status": "won",
+          "createdAt": 1766216070641
+        },
+        {
+          "id": "16d9fc70-131b-444a-9d1d-b39fb34c8958",
+          "roundId": "202512200001",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 19.8,
+          "status": "won",
+          "createdAt": 1766216074245
+        }
+      ]
+    },
+    {
+      "id": "202512200002",
+      "startTimestamp": 1766216090828,
+      "phase": "COMPLETE",
+      "serverSeed": "2bce800c1a9dd762dfb9e63f594d12f72b4131c641b40a055d840c8488e9495e",
+      "serverSeedHash": "8d4bc233b53ee93313381b796d2776120c809be35c29275932d9cb0f6be4df22",
+      "winningColor": "green",
+      "winRevealedAt": 1766216146880,
+      "bets": [
+        {
+          "id": "f68664f4-918b-4af7-a722-36a8926c2411",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216108943
+        },
+        {
+          "id": "7c131bb6-1423-46a1-833d-d4562cf3d216",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216111491
+        },
+        {
+          "id": "d71c26b8-2a3f-4778-bd6e-2780eb889369",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216113540
+        },
+        {
+          "id": "68790ec9-880d-4a8f-ad1f-c9fe7882d6bd",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216116125
+        },
+        {
+          "id": "f8f70c6c-dce1-41cd-b1d7-e386bb9e97a2",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216118863
+        },
+        {
+          "id": "cbce3847-395e-454b-a965-cd649e35f931",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "green",
+          "wonAmount": 19.8,
+          "status": "won",
+          "createdAt": 1766216121068
+        },
+        {
+          "id": "0a138561-6430-4b87-9914-9386dae79389",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "green",
+          "wonAmount": 19.8,
+          "status": "won",
+          "createdAt": 1766216123509
+        },
+        {
+          "id": "21b5cac2-0f77-4083-82e6-c4ef9f2139fb",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "green",
+          "wonAmount": 19.8,
+          "status": "won",
+          "createdAt": 1766216128899
+        },
+        {
+          "id": "a5bdd3a6-e6c3-4376-9d70-3a1bfc9d4e13",
+          "roundId": "202512200002",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216132287
+        }
+      ]
+    },
+    {
+      "id": "202512200003",
+      "startTimestamp": 1766216151354,
+      "phase": "COMPLETE",
+      "serverSeed": "608d5c834db1d3067ccd1caa9b90159ec368d2775c53f84a02f76ae0b9eea9c3",
+      "serverSeedHash": "c5574b8ef6c30c79e460dd37992c8f7db7d4bbd7586ae89a530de07f57560ced",
+      "winningColor": "green",
+      "winRevealedAt": 1766216201543,
+      "bets": [
+        {
+          "id": "5d8348ca-3fe5-43e8-941c-4857aaedea21",
+          "roundId": "202512200003",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216168957
+        },
+        {
+          "id": "47aede6a-10f2-43aa-b76d-e52974f4f522",
+          "roundId": "202512200003",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216172447
+        },
+        {
+          "id": "e337d060-2f57-45e5-b818-17c96c13d622",
+          "roundId": "202512200003",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216173853
+        },
+        {
+          "id": "1bee0ded-14ac-409d-9d59-779e44914e24",
+          "roundId": "202512200003",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216175822
+        },
+        {
+          "id": "cbf56312-aee5-4e18-9515-27bfde0efe6c",
+          "roundId": "202512200003",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216177950
+        },
+        {
+          "id": "fd2776c2-d6e3-4b8a-9c28-f2e3f2a83ef9",
+          "roundId": "202512200003",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216183340
+        },
+        {
+          "id": "4c118e06-09c2-418e-bb56-7dee6e3b70ee",
+          "roundId": "202512200003",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216186040
+        }
+      ]
+    },
+    {
+      "id": "202512200004",
+      "startTimestamp": 1766216211891,
+      "phase": "COMPLETE",
+      "serverSeed": "4bbcdb34aa2a60d81cffe27d237ff2a8fddbabbfd22b23b2beed4ce2244d01e2",
+      "serverSeedHash": "b552851a9323e17a13bab0f96aaeec182e549ecda4860cd75e7eb70f51f668d2",
+      "winningColor": "blue",
+      "winRevealedAt": 1766216265598,
+      "bets": [
+        {
+          "id": "90ae6a53-a2bc-45f2-87ed-8303b9225826",
+          "roundId": "202512200004",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216229579
+        },
+        {
+          "id": "b96d5398-a24c-461b-a301-6cd712a31952",
+          "roundId": "202512200004",
+          "userId": "user_950f7b26",
+          "amount": 200,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216234947
+        },
+        {
+          "id": "8f541808-625e-47c3-899f-dd7542ac45b6",
+          "roundId": "202512200004",
+          "userId": "user_950f7b26",
+          "amount": 250,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216239181
+        },
+        {
+          "id": "22d2924d-5fce-4569-b8c4-f12af5a51670",
+          "roundId": "202512200004",
+          "userId": "user_950f7b26",
+          "amount": 300,
+          "color": "blue",
+          "wonAmount": 1500,
+          "status": "won",
+          "createdAt": 1766216243808
+        },
+        {
+          "id": "2db715c6-d171-46cd-afc8-80b6a32fdbe5",
+          "roundId": "202512200004",
+          "userId": "user_950f7b26",
+          "amount": 330,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216248095
+        }
+      ]
+    },
+    {
+      "id": "202512200005",
+      "startTimestamp": 1766216272418,
+      "phase": "COMPLETE",
+      "serverSeed": "f4975a3a93eb8055212753881129aa347717470fcfa9d1852711c212b8b00f7a",
+      "serverSeedHash": "2dedfcfc0a0e40cdede7c6b4edd4272a1cbffc0968ec5a21e5d14cbddf88ed80",
+      "winningColor": "green",
+      "winRevealedAt": 1766216325046,
+      "bets": [
+        {
+          "id": "a5a05001-4432-42e9-8251-57cc4946b006",
+          "roundId": "202512200005",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216291633
+        },
+        {
+          "id": "fd4c277a-ba80-414c-a7e8-141481ca729e",
+          "roundId": "202512200005",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216295816
+        },
+        {
+          "id": "188c4aa9-614a-4c1e-b79b-8498391312f4",
+          "roundId": "202512200005",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216296964
+        }
+      ]
+    },
+    {
+      "id": "202512200006",
+      "startTimestamp": 1766216332955,
+      "phase": "COMPLETE",
+      "serverSeed": "8f473048f0595979646374ebc566a032358399cb393cd6fc118dfe753e29286c",
+      "serverSeedHash": "6327875b27bcdf565419c9caf47abcf3cc50d37bb05ac2d8ccd479ec4c308a94",
+      "winningColor": "red",
+      "winRevealedAt": 1766216390247,
+      "bets": [
+        {
+          "id": "01656a6f-4ec4-4403-b3d5-311f1789909f",
+          "roundId": "202512200006",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216350694
+        },
+        {
+          "id": "225bc33e-068f-42e3-95c9-060301edac21",
+          "roundId": "202512200006",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216357242
+        },
+        {
+          "id": "2e169577-c24c-41a0-911c-97be29ba38fe",
+          "roundId": "202512200006",
+          "userId": "user_950f7b26",
+          "amount": 200,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216359978
+        },
+        {
+          "id": "4797dec3-15e3-4c2f-a6c0-51d30ab4037f",
+          "roundId": "202512200006",
+          "userId": "user_950f7b26",
+          "amount": 10,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216362526
+        },
+        {
+          "id": "145ba4be-c616-4abc-ae34-25c69262e673",
+          "roundId": "202512200006",
+          "userId": "user_950f7b26",
+          "amount": 500,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216366340
+        },
+        {
+          "id": "1c03627a-9e7f-43ce-bcee-db5bb9ef53a7",
+          "roundId": "202512200006",
+          "userId": "user_950f7b26",
+          "amount": 550,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216373293
+        }
+      ]
+    },
+    {
+      "id": "202512200007",
+      "startTimestamp": 1766216393489,
+      "phase": "COMPLETE",
+      "serverSeed": "0d08f897ca2f0d4370e895ba6be7edb222bc2540b0a8c54d3234bb2ab82b1566",
+      "serverSeedHash": "7b1a91c1731403daaebaad6db5145ffa89141fc605742e922b32e29a604342c2",
+      "winningColor": "red",
+      "winRevealedAt": 1766216448756,
+      "bets": [
+        {
+          "id": "0dc5920e-03e2-4c70-807c-3de64928c31b",
+          "roundId": "202512200007",
+          "userId": "user_950f7b26",
+          "amount": 550,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216420377
+        },
+        {
+          "id": "3769644c-569d-4626-808a-dbac4cfe7227",
+          "roundId": "202512200007",
+          "userId": "user_950f7b26",
+          "amount": 550,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216424786
+        },
+        {
+          "id": "03c4e4ee-a032-47ec-9522-d4a4c8510950",
+          "roundId": "202512200007",
+          "userId": "user_950f7b26",
+          "amount": 550,
+          "color": "blue",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216429938
+        },
+        {
+          "id": "c6e18ee1-dcd4-42af-bf3a-ee0b13ca8b80",
+          "roundId": "202512200007",
+          "userId": "user_950f7b26",
+          "amount": 550,
+          "color": "green",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216433138
+        },
+        {
+          "id": "5bcaec56-3af3-4a1c-a9a0-36cc02075120",
+          "roundId": "202512200007",
+          "userId": "user_950f7b26",
+          "amount": 550,
+          "color": "red",
+          "wonAmount": 1089,
+          "status": "won",
+          "createdAt": 1766216436835
+        }
+      ]
+    },
+    {
+      "id": "202512200008",
+      "startTimestamp": 1766216454022,
+      "phase": "COMPLETE",
+      "serverSeed": "f4d9dbd3b94700940548bc5a5b2f4f07225a8871b11d8ef717fffb43edca30f2",
+      "serverSeedHash": "c10508fd2c9c431ed3c470d93f3fb71d143867b95fc3d27d71cf24bc2875d463",
+      "winningColor": "blue",
+      "winRevealedAt": 1766216507018,
+      "bets": [
+        {
+          "id": "1b855bf9-11c6-4835-9c77-b9cd2d60aedf",
+          "roundId": "202512200008",
+          "userId": "user_950f7b26",
+          "amount": 550,
+          "color": "red",
+          "wonAmount": 0,
+          "status": "lost",
+          "createdAt": 1766216474980
+        }
+      ]
+    },
+    {
+      "id": "202512200009",
+      "startTimestamp": 1766216514571,
+      "phase": "COMPLETE",
+      "serverSeed": "c9599dcdad4bae32ada3d9a00f40886534b485dd3ccfd69ca64347ef7bdabafd",
+      "serverSeedHash": "321e5073a8096bafe85a5cc2723440ef8e379344c3979e84747c5a45c7f17bcc",
+      "winningColor": "red",
+      "winRevealedAt": 1766216565333,
+      "bets": []
+    },
+    {
+      "id": "202512200010",
+      "startTimestamp": 1766216575103,
+      "phase": "COMPLETE",
+      "serverSeed": "f36937d8cf32d8cbd1d0cba07a465bb37a9c0a2130441476be0ba16cb1058510",
+      "serverSeedHash": "566aab0aed9f7ee51e33eed94d84cbf705219087c7d5743121a73d08ed674f47",
+      "winningColor": "red",
+      "winRevealedAt": 1766216627691,
+      "bets": []
+    },
+    {
+      "id": "202512200011",
+      "startTimestamp": 1766216635675,
+      "phase": "COMPLETE",
+      "serverSeed": "142ca9add54d28de6f0cc0c2d236fcf0f8a8be94a24875511057d9986584b5b5",
+      "serverSeedHash": "bd027089cd1a08c5e871c0e6d1350a2517638d014adcd2f737f735dab290fbe7",
+      "winningColor": "red",
+      "winRevealedAt": 1766216689549,
+      "bets": []
+    },
+    {
+      "id": "202512200012",
+      "startTimestamp": 1766216696209,
+      "phase": "COMPLETE",
+      "serverSeed": "293aa7e3d5b1448257b224d97ad406611e791c45b41e1cc62d1b03c12981db71",
+      "serverSeedHash": "0f69f07927e08361d6b3f91532a8fdd1a4986abb99cc978c560d4ba656475be6",
+      "winningColor": "green",
+      "winRevealedAt": 1766216743697,
+      "bets": []
+    },
+    {
+      "id": "202512200013",
+      "startTimestamp": 1766216756735,
+      "phase": "COMPLETE",
+      "serverSeed": "8a7f4aced8dbe2a2b613ea55da54fd90d4071df50197e6e4b28ff626651448c2",
+      "serverSeedHash": "de4c76fdb547d0e4b5609a0190eeeaa692eb96aa731fd68997f7444bbb474945",
+      "winningColor": "red",
+      "winRevealedAt": 1766216812130,
+      "bets": []
+    },
+    {
+      "id": "202512200014",
+      "startTimestamp": 1766216817267,
+      "phase": "COMPLETE",
+      "serverSeed": "dc510f317f2dea76c61737bd7fb8ff7b3b01ae5e1af5933f16bcb23d26cb30fc",
+      "serverSeedHash": "e74848957eae30d006e55efa86a107a62f98ac8004c4f4141d0dabca320b5950",
+      "winningColor": "green",
+      "winRevealedAt": 1766216873210,
+      "bets": []
+    },
+    {
+      "id": "202512200015",
+      "startTimestamp": 1766216877811,
+      "phase": "COMPLETE",
+      "serverSeed": "8eab895502f731ebe6b9c4f654d61f122541974a8250e5aa98ea8697675d9a28",
+      "serverSeedHash": "c4525d28002e21349a0ec3659e9ef77399f833ac2fcb6e2e21e24706318b15b0",
+      "winningColor": "red",
+      "winRevealedAt": 1766216934876,
+      "bets": []
+    },
+    {
+      "id": "202512200016",
+      "startTimestamp": 1766216938351,
+      "phase": "COMPLETE",
+      "serverSeed": "33e8ea6d847a73a5d0d1dde8d23c86c5c01a19e39a9ca7f70a64ccc8e966d150",
+      "serverSeedHash": "721fa089e4b6eba2edbf689cecd89455bacc2e08834dd4553dedb1861bc076cd",
+      "winningColor": "red",
+      "winRevealedAt": 1766216987301,
+      "bets": []
+    },
+    {
+      "id": "202512200017",
+      "startTimestamp": 1766216998885,
+      "phase": "COMPLETE",
+      "serverSeed": "48783ce2c0a87ea7cabbf7f4fcd42bb27f70108561c190d50ac6d12a95f7009e",
+      "serverSeedHash": "1e142bae3940e363f702a5d7af55737bc8e2d418593fe7256a6873edd6bc4a00",
+      "winningColor": "green",
+      "winRevealedAt": 1766217047647,
+      "bets": []
+    },
+    {
+      "id": "202512200018",
+      "startTimestamp": 1766217059422,
+      "phase": "COMPLETE",
+      "serverSeed": "eb339ef3c0eb94b8f3311397e7ccc2cd1d8528db155ebab21aee691fc1ab7626",
+      "serverSeedHash": "7ad62750d49cea64bb55564cc0723aa9f13d794ac1ace1049b31a048d729c179",
+      "winningColor": "green",
+      "winRevealedAt": 1766217114420,
+      "bets": []
+    },
+    {
+      "id": "202512200019",
+      "startTimestamp": 1766217119964,
+      "phase": "COMPLETE",
+      "serverSeed": "49371ebd2dece1996bbd9e099029fa62aeb3901f4ec5dbc9f587fdaa99a6d4e8",
+      "serverSeedHash": "f07a789f16f6957c8a093f145699f15a167353958af0197281abf0304c2c79ed",
+      "winningColor": "green",
+      "winRevealedAt": 1766217171197,
       "bets": []
     }
   ]

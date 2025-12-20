@@ -30,9 +30,12 @@ router.get('/game/fairness/:roundId', gameController.getFairness);
 
 // ============== Bet routes (protected) ==============
 router.post('/bets/place', requireAuth, betController.placeBet);
+router.put('/bets/update', requireAuth, betController.updateBet);
+router.delete('/bets/remove', requireAuth, betController.removeBet);
 router.get('/bets/all', betController.getAllBets);
 router.get('/bets/user/history', requireAuth, betController.getUserBets);
 router.get('/bets/user/current', requireAuth, betController.getCurrentBet);
+router.get('/bets/user/current-all', requireAuth, betController.getCurrentBets);
 
 // ============== User routes (protected) ==============
 router.get('/users/me', requireAuth, userController.getCurrentUser);
